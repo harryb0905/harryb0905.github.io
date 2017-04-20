@@ -9,7 +9,6 @@
     src: url('fonts/HaloHandletter.woff') format('woff');
 }
 
-
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -71,8 +70,8 @@ hr.star-primary:after {
   color: #2C3E50;
 }
 hr.profile-line {
-  border: 3px solid white;
-  border-radius: 75%;
+  border: 3px solid #18BC9C;
+  width: 100px;
 }
 
 .img-centered {
@@ -85,8 +84,8 @@ header {
   text-align: center;
   background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
+      rgba(50, 50, 50, 0.7), 
+      rgba(50, 50, 50, 0.7)
     ),
     url(../img/bg.jpg) no-repeat;
   background-size: cover;
@@ -101,24 +100,22 @@ header img.pic {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 3px solid #303d4e;
+  border: 3px solid #18BC9C;
   text-align: center;
   vertical-align: middle;
 }
-
-.bracket-left {
+.bracket {
   font-family: "Courier New", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 88pt;
+  margin: 30px 0px 0px 0px;
+  color: #18BC9C;
+}
+.bracket-left {
   float: left;
-  margin: 30px 0px 0px 50px;
 }
 .bracket-right {
-  font-family: "Courier New", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 88pt;
   float: right;
-  margin: 30px 50px 0px 0px;
 }
-
 header .intro-text .name {
   display: block;
   font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
