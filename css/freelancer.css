@@ -85,8 +85,8 @@ header {
   text-align: center;
   background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
     ),
     url(../img/bg.jpg) no-repeat;
   background-size: cover;
@@ -94,16 +94,29 @@ header {
 }
 header .container {
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
-header img {
-  display: block;
-  margin: 0 auto 20px;
+header img.pic {
+  margin: 0 auto;
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 2px solid #303d4e;
+  border: 3px solid #303d4e;
+  text-align: center;
+  vertical-align: middle;
 }
+
+.bracket-left {
+  font-family: "Courier New", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 88pt;
+  float: left;
+}
+.bracket-right {
+  font-family: "Courier New", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 88pt;
+  float: right;
+}
+
 header .intro-text .name {
   display: block;
   font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -121,7 +134,7 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -134,7 +147,7 @@ header .intro-text .skills {
   font-style: italic;
   font-family: "HaloHandletter";
   font-size: 15pt;
-  padding-top: 20px;
+  padding-top: 30px;
   letter-spacing: 0.5em;
 }
 .navbar-custom {
