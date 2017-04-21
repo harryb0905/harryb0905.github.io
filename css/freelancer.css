@@ -107,7 +107,7 @@ header img.pic {
   vertical-align: middle;
 }
 header .intro-text .name {
-  animation: 1s ease-out 0s 1 slideInFromLeft;
+  animation: 1.2s ease-out 0s 1 slideInFromLeft;
 
   display: block;
   font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -117,8 +117,6 @@ header .intro-text .name {
   padding-top: 20px;
 }
 header .intro-text .skills {
-  animation: 1s ease-out 0s 1 slideInFromRight;
-
   font-size: 1.5em;
   font-weight: 300;
   font-family: "Varela Round", "sans-serif";
@@ -138,6 +136,8 @@ header .intro-text .skills {
   }
 }
 #quote {
+  animation: 1.2s ease-out 0s 1 slideInFromBottom;
+
   font-style: italic;
   font-family: "HaloHandletter";
   font-size: 15pt;
