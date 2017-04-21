@@ -144,6 +144,12 @@ header .intro-text .skills {
   padding-top: 30px;
   letter-spacing: 0.2em;
 }
+#about-me {
+  animation: 1s ease-out 0s 1 scaleChange;
+}
+#about-me-text {
+  animation: 1s ease-out 0s 1 translateText;
+}
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;

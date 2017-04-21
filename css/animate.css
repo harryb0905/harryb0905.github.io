@@ -1,4 +1,4 @@
-/** animated boxes **/
+/** transitions **/
 @keyframes slideInFromTop {
   0% {
     transform: translateY(-75%);
@@ -29,8 +29,7 @@
     opacity: 1;
   }
 }
-
-@keyframes opacityChange {
+@keyframes scaleChange {
   0% {
     opacity: 0;
     transform: scale(2);
@@ -41,7 +40,16 @@
 
   }
 }
-
+@keyframes translateText {
+  0% {
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 
 .bar {
 	height:20px;
