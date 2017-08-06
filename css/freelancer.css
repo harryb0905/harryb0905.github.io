@@ -84,8 +84,8 @@ header {
   text-align: center;
   background: 
     linear-gradient(
-      rgba(50, 50, 50, 0.7), 
-      rgba(50, 50, 50, 0.7)
+      rgba(10, 10, 10, 0.4), 
+      rgba(10, 10, 10, 0.4)
     ),
     url(../img/bg.jpg) no-repeat;
   background-size: cover;
@@ -93,7 +93,7 @@ header {
 }
 header .container {
   padding-top: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 header img.pic {
   animation: 1s ease-out 0s 1 slideInFromTop;
@@ -126,7 +126,7 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
-    padding-bottom: 80px;
+    padding-bottom: 125px;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -134,15 +134,6 @@ header .intro-text .skills {
   header .intro-text .skills {
     font-size: 1.75em;
   }
-}
-#quote {
-  animation: 1.2s ease-out 0s 1 slideInFromBottom;
-
-  font-style: italic;
-  font-family: "HaloHandletter";
-  font-size: 15pt;
-  padding-top: 30px;
-  letter-spacing: 0.2em;
 }
 #about-me {
   animation: 1s ease-out 0s 1 scaleChange;
@@ -222,7 +213,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 125px 0;
 }
 section h2 {
   margin: 0;
@@ -234,7 +225,7 @@ section.success {
 }
 @media (max-width: 767px) {
   section {
-    padding: 75px 0;
+    padding: 150px 0;
   }
   section.first {
     padding-top: 75px;
