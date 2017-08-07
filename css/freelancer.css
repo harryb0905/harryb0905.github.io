@@ -12,7 +12,7 @@ html
 {
   height: 100%;
   background-size: cover;
-  margin: 0 auto;
+  overflow: hidden;
 }
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
