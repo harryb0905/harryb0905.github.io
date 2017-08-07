@@ -8,17 +8,14 @@
     font-family: HaloHandletter;
     src: url('fonts/HaloHandletter.woff') format('woff');
 }
-html,body
+html
 {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+   height: 100%;
 }
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden;
-  margin-top: 0px;
+  height: 100%;
+  overflow: auto;
 }
 p {
   font-size: 20px;
@@ -77,11 +74,10 @@ hr.star-primary:after {
   color: #2C3E50;
 }
 hr.profile-line {
-  border: 3px solid #3366CC;
+  border: 3px solid rgba(255, 255, 255, 0.7);
   width: 100px;
   border-radius: 10px;
 }
-
 .img-centered {
   margin: 0 auto;
 }
@@ -96,9 +92,21 @@ header {
       rgba(10, 10, 10, 0.45)
     ),
     url(../img/bg.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background-size: cover;         /* Generic*/
   color: white;
 }
+nav img.pic {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+
+  margin: 10px 25px 10px 25px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid white;
+  text-align: center;
+  vertical-align: middle;
+}
+
 header .container {
   padding-top: 150px;
   padding-bottom: 80px;
@@ -108,6 +116,7 @@ header img.pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 
   margin: 0 auto;
+  margin-bottom: 25px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -115,25 +124,25 @@ header img.pic {
   text-align: center;
   vertical-align: middle;
 }
+header .intro-text .name, .skills {
+  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.9), 0 6px 2px 0 rgba(0, 0, 0, 0.9);
+  display: inline-block;
+  padding: 20px;
+}
 header .intro-text .name {
   animation: 1.2s ease-out 0s 1 slideInFromLeft;
-
-  display: block;
   font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2em;
-  padding-top: 20px;
 }
 header .intro-text .skills {
   animation: 1.2s ease-in-out 0s 1 slideInFromBottom;
-
   font-size: 1.5em;
   font-weight: 300;
   font-family: "Varela Round", "sans-serif";
   letter-spacing: 0.05em;
-  margin: 0px 30px 0px 30px;
-  padding-top: 10px;
+  margin: 0 40px 0 40px;
 }
 @media (min-width: 768px) {
   header .container {
@@ -142,9 +151,12 @@ header .intro-text .skills {
   }
   header .intro-text .name {
     font-size: 3.75em;
+    padding: 40px;
   }
   header .intro-text .skills {
     font-size: 1.4em;
+    padding: 30px;
+    margin-top: 10px;
   }
 }
 #about-me {
@@ -154,7 +166,7 @@ header .intro-text .skills {
   animation: 1s ease-out 0s 1 translateText;
 }
 .navbar-custom {
-  background: rgba(51,102,204,0.9);
+  background: rgba(0, 179, 60, 0.9);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -162,6 +174,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-brand {
   color: white;
+  margin-top: 15px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -174,6 +187,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a {
   color: white;
+  margin-top: 15px;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #18BC9C;
