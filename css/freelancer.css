@@ -94,8 +94,8 @@ header {
       rgba(10, 10, 10, 0.45)
     ),
     url(../img/bg.jpg) no-repeat center center fixed;
+    max-width: 80%;
   background-size: cover;         /* Generic*/
-  overflow: hidden;
   color: white;
 }
 nav img.pic {
