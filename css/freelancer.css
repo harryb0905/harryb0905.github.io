@@ -16,6 +16,7 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   height: 100%;
   overflow: auto;
+  background-size: cover;
 }
 p {
   font-size: 20px;
