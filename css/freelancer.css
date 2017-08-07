@@ -94,6 +94,10 @@ header {
     ),
     url(../img/bg.jpg) no-repeat center center fixed;
   background-size: cover;         /* Generic*/
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
   color: white;
 }
 nav img.pic {
