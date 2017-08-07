@@ -11,10 +11,11 @@
 html
 {
    height: 100%;
+   width: 100%;
+   background-size: cover;
 }
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  height: 100%;
   overflow: auto;
 }
 p {
