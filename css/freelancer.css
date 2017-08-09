@@ -87,8 +87,8 @@ header {
   text-align: center;
   background: 
     linear-gradient(
-      rgba(10, 10, 10, 0.45), 
-      rgba(10, 10, 10, 0.45)
+      rgba(10, 10, 10, 0.38), 
+      rgba(10, 10, 10, 0.38)
     ),
     url(../img/bg.jpg);
   background-size: cover;
@@ -111,8 +111,7 @@ header .container {
   padding-bottom: 80px;
 }
 header img.pic {
-  animation: 1.4s ease-out 0s 1 slideInFromTop;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.7);
 
   margin: 0 auto;
   margin-bottom: 10px;
@@ -124,19 +123,18 @@ header img.pic {
   vertical-align: middle;
 }
 header .intro-text .name, .skills {
-  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.9), 0 6px 2px 0 rgba(0, 0, 0, 0.9);
+  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.9), 0 2px 2px 0 rgba(0, 0, 0, 0.9);
   display: inline-block;
   padding: 10px;
 }
 header .intro-text .name {
-  animation: 1.4s ease-out 0s 1 slideInFromLeft;
   font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2em;
 }
 header .intro-text .skills {
-  animation: 1.4s ease-in-out 0s 1 slideInFromBottom;
+  /*animation: 1.4s ease-in-out 0s 1 slideInFromBottom;*/
   font-size: 1.2em;
   font-weight: 200;
   font-family: "Varela Round", "sans-serif";
@@ -156,12 +154,6 @@ header .intro-text .skills {
     padding: 30px;
     margin-top: 10px;
   }
-}
-#about-me {
-  animation: 1s ease-out 0s 1 scaleChange;
-}
-#about-me-text {
-  animation: 1s ease-out 0s 1 translateText;
 }
 .navbar-custom {
   background: rgba(0, 179, 60, 0.9);
@@ -267,6 +259,7 @@ section.success {
   max-width: 300px;
   margin: 0 auto;
   box-shadow: 7.5px 7.5px 7.5px #888888;
+  animation: 
 }
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(24, 188, 156, 0.9);
