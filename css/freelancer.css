@@ -111,13 +111,13 @@ header .container {
   padding-bottom: 80px;
 }
 header img.pic {
-  animation: 1s ease-out 0s 1 slideInFromTop;
+  animation: 1.4s ease-out 0s 1 slideInFromTop;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 
   margin: 0 auto;
-  margin-bottom: 25px;
-  width: 175px;
-  height: 175px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 3px solid;
   text-align: center;
@@ -126,19 +126,19 @@ header img.pic {
 header .intro-text .name, .skills {
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.9), 0 6px 2px 0 rgba(0, 0, 0, 0.9);
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
 }
 header .intro-text .name {
-  animation: 1.2s ease-out 0s 1 slideInFromLeft;
+  animation: 1.4s ease-out 0s 1 slideInFromLeft;
   font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2em;
 }
 header .intro-text .skills {
-  animation: 1.2s ease-in-out 0s 1 slideInFromBottom;
-  font-size: 1.5em;
-  font-weight: 300;
+  animation: 1.4s ease-in-out 0s 1 slideInFromBottom;
+  font-size: 1.4em;
+  font-weight: 200;
   font-family: "Varela Round", "sans-serif";
   letter-spacing: 0.05em;
   margin: 0 40px 0 40px;
@@ -150,10 +150,9 @@ header .intro-text .skills {
   }
   header .intro-text .name {
     font-size: 3.75em;
-    padding: 40px;
+    padding: 30px;
   }
   header .intro-text .skills {
-    font-size: 1.4em;
     padding: 30px;
     margin-top: 10px;
   }
