@@ -42,7 +42,4 @@ srt.reveal('.portfolio-text', { duration: 1400, origin: 'top'});
 srt.reveal('.name', { duration: 1800, origin: 'left', reset: false});
 srt.reveal('.skills', { duration: 1800, origin: 'right', reset: false});
 srt.reveal('.pic', { duration: 1800, origin: 'top', reset: false});
-
-
-
-
+srt.reveal('.nav-pic', { duration: 1800, origin: 'left', reset: false});

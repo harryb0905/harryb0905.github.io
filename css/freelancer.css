@@ -73,7 +73,7 @@ hr.star-primary:after {
   color: #2C3E50;
 }
 hr.profile-line {
-  border: 3px solid rgba(255, 255, 255, 0.7);
+  border: 3px solid rgba(255, 255, 255, 1);
   width: 100px;
   border-radius: 10px;
 }
@@ -87,14 +87,14 @@ header {
   text-align: center;
   background: 
     linear-gradient(
-      rgba(10, 10, 10, 0.38), 
-      rgba(10, 10, 10, 0.38)
+      rgba(10, 10, 10, 0.37), 
+      rgba(10, 10, 10, 0.37)
     ),
     url(../img/bg.jpg);
   background-size: cover;
   color: white;
 }
-nav img.pic {
+nav img.nav-pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 
   margin: 10px 25px 10px 25px;
@@ -111,16 +111,22 @@ header .container {
   padding-bottom: 80px;
 }
 header img.pic {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
 
   margin: 0 auto;
   margin-bottom: 10px;
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
   border-radius: 50%;
   border: 3px solid;
   text-align: center;
   vertical-align: middle;
+  z-index: 0;
+  opacity: 0.9;
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+  transition: opacity 0.2s, transform 0.2s;
 }
 header .intro-text .name, .skills {
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.9), 0 2px 2px 0 rgba(0, 0, 0, 0.9);
@@ -154,9 +160,13 @@ header .intro-text .skills {
     padding: 30px;
     margin-top: 10px;
   }
+  header img.pic {
+    width: 250px;
+    height: 250px;
+  }
 }
 .navbar-custom {
-  background: rgba(0, 179, 60, 0.9);
+  background: rgba(102, 179, 255, 0.9);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
