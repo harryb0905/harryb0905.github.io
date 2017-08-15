@@ -97,18 +97,19 @@ header {
       rgba(10, 10, 10, 0.37), 
       rgba(10, 10, 10, 0.37)
     ),
-    no-repeat center right fixed url(../img/bg.jpg);
+    no-repeat center center fixed url(../img/bg.jpg);
 
   color: white;
+  background-size:cover;
   /*-webkit-background-size: 100%; 
   -moz-background-size: 100%; 
   -o-background-size: 100%; 
   background-size: 100%; */
   
-  -webkit-background-size: cover;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
   
   margin-bottom: 0px;
   padding: 0px;
