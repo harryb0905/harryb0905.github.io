@@ -95,13 +95,12 @@ header {
   color: white;
 }
 nav img.nav-pic {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
 
   margin: 10px 25px 10px 25px;
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: 1px solid white;
   text-align: center;
   vertical-align: middle;
 }
@@ -122,7 +121,7 @@ header img.pic {
   text-align: center;
   vertical-align: middle;
   z-index: 0;
-  opacity: 0.9;
+  opacity: 1;
 
 }
 header .intro-text .name, .skills {
