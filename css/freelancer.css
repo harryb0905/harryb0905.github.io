@@ -13,7 +13,8 @@ html, body
   background-size: cover;
 }
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
   overflow: auto;
 }
 p {
@@ -77,6 +78,12 @@ hr.profile-line {
   width: 100px;
   border-radius: 10px;
 }
+hr.portfolio-line {
+  border: 3px solid black;
+  width: 100px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
 .img-centered {
   margin: 0 auto;
 }
@@ -90,9 +97,21 @@ header {
       rgba(10, 10, 10, 0.37), 
       rgba(10, 10, 10, 0.37)
     ),
-    url(../img/bg.jpg);
-  background-size: cover;
+    no-repeat center right fixed url(../img/bg.jpg);
+
   color: white;
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%; 
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  margin-bottom: 0px;
+  padding: 0px;
 }
 nav img.nav-pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
@@ -147,6 +166,7 @@ header .intro-text .skills {
   header .container {
     padding-top: 300px;
     padding-bottom: 300px;
+    height: 100vh;
   }
   header .intro-text .name {
     font-size: 3.75em;
@@ -254,10 +274,17 @@ section.success {
     padding-top: 75px;
   }
 }
+#portfolio {
+  background-color: rgba(242, 239, 226, 0.9);
+}
+#portfolio-quote {
+  padding: 20px;
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
   border-radius: 5px;
+  font-weight: 400;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;

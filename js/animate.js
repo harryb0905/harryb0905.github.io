@@ -33,13 +33,14 @@ $(window).scroll(function(){
 });
 
 // Scroll Reveal code
-window.srt = ScrollReveal({ reset: true });
+window.srt = ScrollReveal({ reset: false });
 
 srt.reveal('.about-me-custom', { duration: 1200, origin: 'top' });
 srt.reveal('.about-me-text', { duration: 1200, origin: 'bottom' });
-srt.reveal('.portfolio-item', { duration: 1400, origin: 'left', rotate: { x: 40, y: 40, z: 0 } });
-srt.reveal('.portfolio-text', { duration: 1400, origin: 'top'});
-srt.reveal('.name', { duration: 1800, origin: 'left', reset: false});
-srt.reveal('.skills', { duration: 1800, origin: 'right', reset: false});
-srt.reveal('.pic', { duration: 1800, origin: 'top', reset: false});
-srt.reveal('.nav-pic', { duration: 1800, origin: 'left', reset: false});
+srt.reveal('.portfolio-item', { duration: 1200, origin: 'left', rotate: { x: 20, y: 0, z: 0 } });
+srt.reveal('.portfolio-text', { duration: 1400, origin: 'right'});
+srt.reveal('#portfolio-quote', { duration: 1400, origin: 'top'});
+srt.reveal('.name', { duration: 1800, origin: 'left'});
+srt.reveal('.skills', { duration: 1800, origin: 'right'});
+srt.reveal('.pic', { duration: 1800, origin: 'top'});
+srt.reveal('.nav-pic', { duration: 1800, origin: 'left'});
