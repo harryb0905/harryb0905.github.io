@@ -100,7 +100,7 @@ header {
     no-repeat center right fixed url(../img/bg.jpg);
 
   color: white;
-  -webkit-background-size: 100%; 
+  /*-webkit-background-size: 100%; 
   -moz-background-size: 100%; 
   -o-background-size: 100%; 
   background-size: 100%; 
@@ -108,7 +108,7 @@ header {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
   
   margin-bottom: 0px;
   padding: 0px;
