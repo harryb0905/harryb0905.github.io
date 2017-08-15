@@ -292,7 +292,7 @@ section.success {
   max-width: 300px;
   margin: 0 auto;
   box-shadow: 7.5px 7.5px 7.5px #888888;
-  animation: 
+  animation: 1.4s ease-in-out 0s 1 slideInFromBottom;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(24, 188, 156, 0.9);
@@ -313,9 +313,10 @@ section.success {
   height: 20px;
   font-size: 16px;
   text-align: center;
-  top: 50%;
+  top: 25%;
   margin-top: -12px;
   color: white;
+  animation: slideInFromLeft;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;

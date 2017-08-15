@@ -14,23 +14,29 @@ function isElementInViewport(elem) {
     return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
 }
 
+
 // Check if it's time to start the animation.
 function checkAnimation() {
     var $elem = $('.bar .level');
 
     // If the animation has already been started
     if ($elem.hasClass('start')) return;
-
-    if (isElementInViewport($elem)) {
-        // Start the animation
-        $elem.addClass('start');
-    }
+    $(".portfolio-item").hover(
+        function() {
+            // item is being hovered over
+            $elem.addClass('start');
+        }, function() {
+            // item is no longer being hovered over
+            $elem.removeClass('start');
+        }
+    );
 }
 
 // Capture scroll events
 $(window).scroll(function(){
     checkAnimation();
 });
+
 
 // Scroll Reveal code
 window.srt = ScrollReveal({ reset: false });
