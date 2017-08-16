@@ -24,12 +24,18 @@ function checkAnimation() {
     $(".portfolio-item").hover(
         function() {
             // item is being hovered over
+            $elem.removeClass('start');
             $elem.addClass('start');
         }, function() {
             // item is no longer being hovered over
             $elem.removeClass('start');
         }
     );
+
+    if (isElementInViewport($elem)) {
+        // Start the animation
+        $elem.addClass('start');
+    }
 }
 
 // Capture scroll events
@@ -48,5 +54,5 @@ srt.reveal('.portfolio-text', { duration: 1400, origin: 'right'});
 srt.reveal('#portfolio-quote', { duration: 1400, origin: 'top'});
 srt.reveal('.name', { duration: 1800, origin: 'left'});
 srt.reveal('.skills', { duration: 1800, origin: 'right'});
-srt.reveal('.pic', { duration: 1800, origin: 'top'});
+srt.reveal('.profile-pic', { duration: 1800, origin: 'top'});
 srt.reveal('.nav-pic', { duration: 1800, origin: 'left'});

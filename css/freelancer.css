@@ -78,7 +78,7 @@ hr.profile-line {
   width: 100px;
   border-radius: 10px;
 }
-hr.portfolio-line {
+hr.hr-line {
   border: 3px solid black;
   width: 100px;
   border-radius: 10px;
@@ -130,13 +130,14 @@ header .container {
   padding-top: 100px;
   padding-bottom: 80px;
 }
-header img.pic {
+.profile-pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
 
+  display: block;
   margin: 0 auto;
   margin-bottom: 10px;
-  width: 175px;
-  height: 175px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   border: 3px solid;
   text-align: center;
@@ -144,6 +145,22 @@ header img.pic {
   z-index: 0;
   opacity: 1;
 
+}
+.profile-pic-about {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 0;
+  opacity: 1;
 }
 header .intro-text .name, .skills {
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.9), 0 2px 2px 0 rgba(0, 0, 0, 0.9);
@@ -182,6 +199,52 @@ header .intro-text .skills {
     width: 250px;
     height: 250px;
   }
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+  }
+}
+.no-bullets {
+  list-style-type: none;
+  margin: 0 auto;
+}
+.language-title {
+  font-size: 18pt;
+  font-weight: 300;
+}
+#languages ul > li { 
+  min-height: 30px; 
+  padding: 5px; 
+}
+#languages ul > li:hover { 
+  background: #F2F2F2; 
+}
+#languages ul > li .language-title { 
+  display: inline-block; 
+  width: 40%; 
+}
+
+#languages ul > li .confidence-rating .glyphicon { 
+  color: #DFE0E0; 
+  font-size: 18px; 
+   
+  -webkit-transition: all 0.12s;
+  -moz-transition: all 0.12s;
+  -o-transition: all 0.12s;
+  transition: all 0.12s;
+}
+#languages ul > li .confidence-rating .glyphicon.filled { 
+  color: #ff9900; 
+}
+
+#languages ul > li:hover .confidence-rating .glyphicon { 
+  margin-left: 5px;
+  transform: scale(1.4); 
+} 
+#language-header {
+  font-size: 16pt;
+  margin-left: 45px;
+  margin-bottom: 15px;
 }
 .navbar-custom {
   background: rgba(102, 179, 255, 0.9);
@@ -267,6 +330,10 @@ section h2 {
 section.success {
   background: #6da7af;
   color: white;
+}
+#skills {
+  background: white;
+  color: black;
 }
 @media (max-width: 767px) {
   section {

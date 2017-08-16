@@ -70,38 +70,61 @@
 	background:#aae0aa;
   width:60%;
 }
-.level-eighty {
-	height:20px;
-	background:#aae0aa;
-  width:80%;
-}
+
 
 .thirty.start {
 	width: 0px;
 	background: #aae0aa;
-	-webkit-animation: thirty 0.5s ease-out forwards;
-	   -moz-animation: thirty 0.5s ease-out forwards;
-	    -ms-animation: thirty 0.5s ease-out forwards;
-	     -o-animation: thirty 0.5s ease-out forwards;
-	        animation: thirty 0.5s ease-out forwards;
+	-webkit-animation: thirty 1.5s ease-out forwards;
+	   -moz-animation: thirty 1.5s ease-out forwards;
+	    -ms-animation: thirty 1.5s ease-out forwards;
+	     -o-animation: thirty 1.5s ease-out forwards;
+	        animation: thirty 1.5s ease-out forwards;
+}
+.fifty.start {
+  width: 0px;
+  background: #aae0aa;
+  -webkit-animation: fifty 1.5s ease-out forwards;
+     -moz-animation: fifty 1.5s ease-out forwards;
+      -ms-animation: fifty 1.5s ease-out forwards;
+       -o-animation: fifty 1.5s ease-out forwards;
+          animation: fifty 1.5s ease-out forwards;
 }
 .sixty.start {
 	width: 0px;
 	background: #aae0aa;
-	-webkit-animation: sixty 0.5s ease-out forwards;
-	   -moz-animation: sixty 0.5s ease-out forwards;
-	    -ms-animation: sixty 0.5s ease-out forwards;
-	     -o-animation: sixty 0.5s ease-out forwards;
-	        animation: sixty 0.5s ease-out forwards;
+	-webkit-animation: sixty 1.5s ease-out forwards;
+	   -moz-animation: sixty 1.5s ease-out forwards;
+	    -ms-animation: sixty 1.5s ease-out forwards;
+	     -o-animation: sixty 1.5s ease-out forwards;
+	        animation: sixty 1.5s ease-out forwards;
+}
+.seventy.start {
+  width: 0px;
+  background: #aae0aa;
+  -webkit-animation: seventy 1.5s ease-in forwards;
+     -moz-animation: seventy 1.5s ease-out forwards;
+      -ms-animation: seventy 1.5s ease-out forwards;
+       -o-animation: seventy 1.5s ease-out forwards;
+          animation: seventy 1.5s ease-out forwards;
 }
 .eighty.start {
 	width: 0px;
 	background: #aae0aa;
-	-webkit-animation: eighty 0.5s ease-in forwards;
-	   -moz-animation: eighty 0.5s ease-out forwards;
-	    -ms-animation: eighty 0.5s ease-out forwards;
-	     -o-animation: eighty 0.5s ease-out forwards;
-	        animation: eighty 0.5s ease-out forwards;
+	-webkit-animation: eighty 1.5s ease-out forwards;
+	   -moz-animation: eighty 1.5s ease-out forwards;
+	    -ms-animation: eighty 1.5s ease-out forwards;
+	     -o-animation: eighty 1.5s ease-out forwards;
+	        animation: eighty 1.5s ease-out forwards;
+}
+.ninety.start {
+  width: 0px;
+  background: #aae0aa;
+  -webkit-animation: ninety 1.5s ease-out forwards;
+     -moz-animation: ninety 1.5s ease-out forwards;
+      -ms-animation: ninety 1.5s ease-out forwards;
+       -o-animation: ninety 1.5s ease-out forwards;
+          animation: ninety 1.5s ease-out forwards;
 }
 
 @-moz-keyframes thirty {
