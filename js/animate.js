@@ -56,3 +56,5 @@ srt.reveal('.name', { duration: 1800, origin: 'left'});
 srt.reveal('.skills', { duration: 1800, origin: 'right'});
 srt.reveal('.profile-pic', { duration: 1800, origin: 'top'});
 srt.reveal('.nav-pic', { duration: 1800, origin: 'left'});
+srt.reveal('#languages', { duration: 800, origin: 'bottom'});
+
