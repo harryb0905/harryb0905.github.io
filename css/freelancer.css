@@ -10,7 +10,7 @@
 }
 html, body
 {
-  background-size: cover;
+
 }
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -92,19 +92,20 @@ hr.hr-line {
 }
 header {
   text-align: center;
-  background: 
+  background:
     linear-gradient(
-      rgba(10, 10, 10, 0.37), 
-      rgba(10, 10, 10, 0.37)
+      rgba(80, 80, 80, 0.77),
+      rgba(80, 80, 80, 0.77)
     ),
-    no-repeat center center fixed url(../img/bg.jpg);
+    no-repeat center center url(../img/github/coding_sm.jpeg);
+
 
   color: white;
   webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
+
   margin-bottom: 0px;
   padding: 0px;
 }
@@ -146,17 +147,19 @@ header .container {
   opacity: 1;
 
 }
+.about-me-text {
+  font-size: 14pt;
+}
 .profile-pic-about {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
 
   display: block;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 10px;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
-  border: 3px solid;
   text-align: center;
   vertical-align: middle;
   z-index: 0;
@@ -212,35 +215,35 @@ header .intro-text .skills {
   font-size: 18pt;
   font-weight: 300;
 }
-#languages ul > li { 
-  min-height: 30px; 
-  padding: 5px; 
+#languages ul > li {
+  min-height: 30px;
+  padding: 5px;
 }
-#languages ul > li:hover { 
-  background: #F2F2F2; 
+#languages ul > li:hover {
+  background: #F2F2F2;
 }
-#languages ul > li .language-title { 
-  display: inline-block; 
-  width: 40%; 
+#languages ul > li .language-title {
+  display: inline-block;
+  width: 40%;
 }
 
-#languages ul > li .confidence-rating .glyphicon { 
-  color: #DFE0E0; 
-  font-size: 18px; 
-   
+#languages ul > li .confidence-rating .glyphicon {
+  color: #DFE0E0;
+  font-size: 18px;
+
   -webkit-transition: all 0.12s;
   -moz-transition: all 0.12s;
   -o-transition: all 0.12s;
   transition: all 0.12s;
 }
-#languages ul > li .confidence-rating .glyphicon.filled { 
-  color: #ff9900; 
+#languages ul > li .confidence-rating .glyphicon.filled {
+  color: #ff9900;
 }
 
-#languages ul > li:hover .confidence-rating .glyphicon { 
+#languages ul > li:hover .confidence-rating .glyphicon {
   margin-left: 5px;
-  transform: scale(1.4); 
-} 
+  transform: scale(1.4);
+}
 #language-header {
   font-size: 16pt;
   margin-left: 45px;
