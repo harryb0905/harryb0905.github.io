@@ -48,7 +48,8 @@ $(window).scroll(function(){
 window.srt = ScrollReveal({ reset: false });
 
 srt.reveal('.about-me-custom', { duration: 1200, origin: 'top' });
-srt.reveal('.about-me-text', { duration: 1200, origin: 'bottom' });
+srt.reveal('.about-me-text', { duration: 1200, origin: 'bottom' })
+srt.reveal('.details-div', { duration: 1200, origin: 'bottom' });
 srt.reveal('.portfolio-item', { duration: 1200, origin: 'left', rotate: { x: 20, y: 0, z: 0 } });
 srt.reveal('.portfolio-text', { duration: 1400, origin: 'right'});
 srt.reveal('#portfolio-quote', { duration: 1400, origin: 'top'});
