@@ -211,9 +211,9 @@ header .intro-text .skills {
   list-style-type: none;
   margin: 0 auto;
 }
-.language-title {
-  font-size: 18pt;
-  font-weight: 300;
+.item-title {
+  font-size: 16pt;
+  font-weight: 200;
 }
 #languages {
   width: 100%;
@@ -221,6 +221,7 @@ header .intro-text .skills {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  font-size: 16pt;
 }
 #languages ul > li {
   min-height: 30px;
@@ -229,9 +230,17 @@ header .intro-text .skills {
 #languages ul > li:hover {
   background: #F2F2F2;
 }
-#languages ul > li .language-title {
+#languages ul > li .item-title-language {
   display: inline-block;
   width: 40%;
+}
+#languages ul > li .item-title-area {
+  display: inline-block;
+  width: 100%;
+}
+#languages ul > li .item-title-os {
+  display: inline-block;
+  width: 100%;
 }
 
 #languages ul > li .confidence-rating .glyphicon {
