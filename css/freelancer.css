@@ -38,7 +38,7 @@ h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
 }
 hr.star-light,
 hr.star-primary {
@@ -354,6 +354,10 @@ section.success {
   background: white;
   color: black;
 }
+#education {
+  background: #356600;
+  opacity: 0.6;
+}
 @media (max-width: 767px) {
   section {
     padding: 150px 0;
@@ -472,16 +476,17 @@ form .row:first-child .floating-label-form-group {
 }
 footer {
   color: white;
+  height: 200px;
 }
 footer h3 {
   margin-bottom: 30px;
 }
 footer .footer-above {
-  padding-top: 50px;
+  padding-top: 150px;
   background-color: #2C3E50;
 }
 footer .footer-col {
-  margin-bottom: 50px;
+  margin-bottom: 200px;
 }
 footer .footer-below {
   padding: 25px 0;
