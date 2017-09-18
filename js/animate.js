@@ -59,16 +59,23 @@ srt.reveal('.profile-pic', { duration: 1700, origin: 'top'});
 srt.reveal('#languages', { duration: 800, origin: 'bottom'});
 
 // navbar link hover effect
-$("nav li").mouseover(function(){
-    $(this).animate({
-        fontSize: "18pt"
-    }, 100);
-}).mouseout(function(){
-    $(this).animate({
-        fontSize: "11pt"
-    }, 100);
-});
+//$("nav li").mouseover(function(){
+//    $(this).animate({
+//        fontSize: "11pt"
+//    }, 100);
+//}).mouseout(function(){
+//    $(this).animate({
+//        fontSize: "11pt"
+//    }, 100);
+//});
 
+// navbar change color on scroll
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
 
 
 
