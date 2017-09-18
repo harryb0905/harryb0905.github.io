@@ -373,6 +373,15 @@ header .intro-text .skills {
     line-height: 75px;
     color: #004280;
 }
+#downBtn.hovered {
+  background-color: #18BC9C !important;
+  color: white;
+  width: 80px;
+  transition: background-color 200ms linear, color 100ms linear, width 100ms linear;
+}
+#downBtn.removed {
+  transition: background-color 200ms linear, color 100ms linear, width 100ms linear;
+}
 section {
   padding: 125px 0;
 }

@@ -58,17 +58,6 @@ srt.reveal('.skills', { duration: 1900, origin: 'right'});
 srt.reveal('.profile-pic', { duration: 1700, origin: 'top'});
 srt.reveal('#languages', { duration: 800, origin: 'bottom'});
 
-// navbar link hover effect
-//$("nav li").mouseover(function(){
-//    $(this).animate({
-//        fontSize: "11pt"
-//    }, 100);
-//}).mouseout(function(){
-//    $(this).animate({
-//        fontSize: "11pt"
-//    }, 100);
-//});
-
 // navbar change color on scroll
 $(function () {
   $(document).scroll(function () {
@@ -76,4 +65,28 @@ $(function () {
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
+
+// nav button animation
+$("#downBtn").hover(
+    function() {
+        //mouse over
+        $(this).addClass('hovered')
+        $(this).removeClass('removed')
+    }, function() {
+        //mouse out
+        $(this).addClass('removed')
+        $(this).removeClass('hovered')
+    });
+
+// animate down button to position on page
+$("#downBtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#about").offset().top - 100},
+        1200);
+});
+
+
+
+
+
 
