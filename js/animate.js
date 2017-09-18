@@ -54,8 +54,23 @@ srt.reveal('.portfolio-item', { duration: 1200, origin: 'left', rotate: { x: 20,
 srt.reveal('.portfolio-text', { duration: 1400, origin: 'right'});
 srt.reveal('#portfolio-quote', { duration: 1400, origin: 'top'});
 srt.reveal('.name', { duration: 1800, origin: 'left'});
-srt.reveal('.skills', { duration: 1800, origin: 'right'});
-srt.reveal('.profile-pic', { duration: 1800, origin: 'top'});
-srt.reveal('.nav-pic', { duration: 1800, origin: 'left'});
+srt.reveal('.skills', { duration: 1900, origin: 'right'});
+srt.reveal('.profile-pic', { duration: 1700, origin: 'top'});
 srt.reveal('#languages', { duration: 800, origin: 'bottom'});
+
+// navbar link hover effect
+$("nav li").mouseover(function(){
+    $(this).animate({
+        fontSize: "18pt"
+    }, 100);
+}).mouseout(function(){
+    $(this).animate({
+        fontSize: "11pt"
+    }, 100);
+});
+
+
+
+
+
 
