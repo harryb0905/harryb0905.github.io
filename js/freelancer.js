@@ -53,20 +53,35 @@ $(window).resize(function() {
   }
 });
 
-// change opacity of top div once navbar is toggled
+// change opacity of top div once navbar is showm
 $('#bs-example-navbar-collapse-1').on('show.bs.collapse', function () {
    $('header').animate({
-         opacity: 0.3,
+         opacity: 0.2
     }, 'fast');
+    
+    $('.navbar-custom li a').css({"color": "black"});
+    
 });
 
-$('#bs-example-navbar-collapse-1').on('hide.bs.collapse', function () {
+// change opacity of top div once navbar is hidden
+$('#bs-example-navbar-collapse-1').on('hidden.bs.collapse', function () {
    $('header').animate({
          opacity: 1
     }, 'fast');
+    
+   $('.navbar-custom li a').css({"color": "white"});
+
 });
 
-
+// toggle navbar collapse when clicking outside of navabar
+$(document).click(function (event) {
+    var clickover = $(event.target);
+    var $navbar = $(".navbar-collapse");               
+    var _opened = $navbar.hasClass("in");
+    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+        $navbar.collapse('hide');
+    }
+});
 
 
 
