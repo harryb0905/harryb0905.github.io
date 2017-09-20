@@ -42,3 +42,34 @@
     });
 
 })(jQuery); // End of use strict
+
+// change opacity if window is resized and navbar has collapsed 
+$(window).resize(function() {
+  if ($(this).width() >= 1024) {
+      $('.collapse').collapse('hide');
+      $('header').animate({
+          opacity: 1
+      }, 'fast');
+  }
+});
+
+// change opacity of top div once navbar is toggled
+$('#bs-example-navbar-collapse-1').on('show.bs.collapse', function () {
+   $('header').animate({
+         opacity: 0.3,
+    }, 'fast');
+});
+
+$('#bs-example-navbar-collapse-1').on('hide.bs.collapse', function () {
+   $('header').animate({
+         opacity: 1
+    }, 'fast');
+});
+
+
+
+
+
+
+
+

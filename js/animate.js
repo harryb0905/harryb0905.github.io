@@ -87,6 +87,3 @@ $("#downBtn").click(function() {
 
 
 
-
-
-
