@@ -105,7 +105,6 @@ header {
   -o-background-size: cover;
   background-size: cover;
     
-
   margin-bottom: 0px;
   padding: 0px;
 }
@@ -152,11 +151,40 @@ header .container {
     background-color: white;
     color: black;
 }
+#needweb {
+    text-align: center;
+    padding: 40px 0;
+}
+#needwebText {
+    font-size: 300%;
+}
+#largeEnv {
+    position: relative;
+    bottom: 15px;
+    width: 75px;
+    height: 75px;    
+}
+#largeEnvIcon {
+    line-height: 68px;
+    font-size: 36px;
+}
 .about-me-text {
   font-size: 14pt;
 }
 #about {
-  background: rgba(0, 85, 128, 0.6);
+  /*background: rgba(0, 85, 128, 0.1);*/
+    text-align: center;
+  background:
+    linear-gradient(
+      rgba(70, 70, 70, 0.85),
+      rgba(70, 70, 70, 0.85)
+    ),
+    no-repeat center center url(../img/fish/footer.jpg);
+
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .profile-pic-about {
   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
@@ -168,6 +196,7 @@ header .container {
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  border: 1px solid white;
   text-align: center;
   vertical-align: middle;
   z-index: 0;
@@ -568,7 +597,20 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 150px;
-  background-color: #2C3E50;
+  background-color: ;
+    
+  text-align: center;
+  background:
+    linear-gradient(
+      rgba(70, 70, 70, 0.75),
+      rgba(70, 70, 70, 0.75)
+    ),
+    no-repeat center center url(../img/fish/footer.jpg);
+
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 footer .footer-col {
   margin-bottom: 200px;
@@ -579,7 +621,7 @@ footer .footer-below {
 }
 .btn-outline {
   color: white;
-  font-size: 20px;
+  font-size: 20px !important;
   border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
@@ -764,4 +806,8 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
     
+}
+
+#contact {
+    /*background-color: #2C3E50;*/
 }
