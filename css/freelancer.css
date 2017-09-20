@@ -292,13 +292,15 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
+  text-align: center;
 }
 .navbar-custom .navbar-nav li a {
   color: white;
   margin-top: 15px;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: white;
+  background-color: rgba(102, 179, 255, 0.55);
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -320,6 +322,7 @@ header .intro-text .skills {
   font-size: 10px;
   border-color: white;
   margin-top: 20px;
+    
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
@@ -347,8 +350,8 @@ header .intro-text .skills {
 }
 .navbar-fixed-top .navbar-collapse a:hover:before {
   visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(0.75);
+  -webkit-transform: scaleX(.15);
+  transform: scaleX(.15);
 }
 @media (min-width: 768px) {
   .navbar-custom {
