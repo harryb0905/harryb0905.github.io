@@ -522,7 +522,6 @@ section.success {
   top: 25%;
   margin-top: -12px;
   color: white;
-  animation: slideInFromLeft;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;

@@ -83,6 +83,16 @@ $(document).click(function (event) {
     }
 });
 
+// portfolio item hover effect
+$('.portfolio-item').hover(function() {
+  
+  $(this).css({"-webkit-transform":"scale(1.1)"});
+  
+}, function() {
+  
+  $(this).css({"-webkit-transform":"scale(1)"});
+
+});
 
 
 

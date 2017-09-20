@@ -21,8 +21,7 @@ function checkAnimation() {
 
     // If the animation has already been started
     if ($elem.hasClass('start')) return;
-    $(".portfolio-item").hover(
-        function() {
+    $(".portfolio-item").hover( function() {
             // item is being hovered over
             $elem.removeClass('start');
             $elem.addClass('start');
