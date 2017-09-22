@@ -137,6 +137,36 @@ $("#downBtn").click(function() {
         1200);
 });
 
+// animate in a portfolio item title on hover
+$('.portfolio-link').hover(function() {
+  
+  // mouse over
+  var title = $(this).find($('.portfolio-title'));
+  var text = $(this).find($('.caption-text'));
+  
+  srt.reveal(title, { duration: 600, origin: 'right'});
+  srt.reveal(text, { duration: 800, origin: 'left'});
+
+}, function() {
+  
+  // mouse out
+  var title = $(this).find($('.portfolio-title'));
+  var text = $(this).find($('.caption-text'));
+  srt.clean(title);
+  srt.clean(text);
+
+});
+
+
+
+
+
+
+
+
+
+
+
 
 
 

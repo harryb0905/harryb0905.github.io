@@ -86,6 +86,7 @@ hr.hr-line {
 }
 .img-centered {
   margin: 0 auto;
+  width: 500px;
 }
 #wrapper {
   position: absolute;
@@ -786,6 +787,7 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
+  color: #18BC9C;
 }
 .portfolio-modal .close-modal {
   position: absolute;
