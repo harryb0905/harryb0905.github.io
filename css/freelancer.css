@@ -24,11 +24,14 @@ p.small {
   font-size: 16px;
 }
 a,
-a:hover,
-a:focus,
-a:active,
-a.active {
+a:hover {
   color: #18BC9C;
+}
+a:active, 
+a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
 }
 h1,
 h2,
@@ -503,6 +506,12 @@ section.success {
 }
 #portfolio {
   background-color: rgba(242, 239, 226, 0.9);
+}
+.portfolio-title.title-hovered {
+  animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+}
+.caption-text.text-hovered {
+  animation: 0.5s ease-in-out 0s 1 slideInFromRight;
 }
 #portfolio-quote {
   padding: 20px;

@@ -139,24 +139,18 @@ $("#downBtn").click(function() {
 
 // animate in a portfolio item title on hover
 $('.portfolio-link').hover(function() {
-  
-  // mouse over
-  var title = $(this).find($('.portfolio-title'));
-  var text = $(this).find($('.caption-text'));
-  
-  srt.reveal(title, { duration: 600, origin: 'right'});
-  srt.reveal(text, { duration: 800, origin: 'left'});
-
+    // mouse over
+    var title = $(this).find($('.portfolio-title'));
+    var text = $(this).find($('.caption-text'));
+    $(title).addClass('title-hovered')
+    $(text).addClass('text-hovered')
 }, function() {
-  
-  // mouse out
-  var title = $(this).find($('.portfolio-title'));
-  var text = $(this).find($('.caption-text'));
-  srt.clean(title);
-  srt.clean(text);
-
+    //mouse out
+    var title = $(this).find($('.portfolio-title'));
+    var text = $(this).find($('.caption-text'));
+    $(title).removeClass('title-hovered')
+    $(text).removeClass('text-hovered')
 });
-
 
 
 
