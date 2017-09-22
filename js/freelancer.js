@@ -84,16 +84,58 @@ $(document).click(function (event) {
 });
 
 // portfolio item hover effect
-$('.portfolio-item').hover(function() {
+$('.portfolio-link').hover(function() {
   
-  $(this).css({"-webkit-transform":"scale(1.1)"});
+  // mouse over    
+  $(this).parent().addClass('start');
   
 }, function() {
   
-  $(this).css({"-webkit-transform":"scale(1)"});
-
+  // mouse out
+  $(this).parent().removeClass('start');
+  
 });
 
+// Scroll Reveal code
+window.srt = ScrollReveal({ reset: false });
+
+srt.reveal('.about-me-custom', { duration: 1200, origin: 'top' });
+srt.reveal('.about-me-text', { duration: 1200, origin: 'bottom' })
+srt.reveal('.details-div', { duration: 1200, origin: 'bottom' });
+srt.reveal('.portfolio-item', { duration: 1000});
+srt.reveal('.portfolio-text', { duration: 1400, origin: 'right'});
+srt.reveal('#portfolio-quote', { duration: 1400, origin: 'top'});
+srt.reveal('.name', { duration: 1800, origin: 'left'});
+srt.reveal('.skills', { duration: 1900, origin: 'right'});
+srt.reveal('.profile-pic', { duration: 1700, origin: 'top'});
+srt.reveal('#languages', { duration: 800, origin: 'bottom'});
+
+// navbar change color on scroll
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
+// nav button animation
+$("#downBtn").hover(
+    function() {
+        //mouse over
+        $(this).addClass('hovered')
+        $(this).removeClass('removed')
+    }, function() {
+        //mouse out
+        $(this).addClass('removed')
+        $(this).removeClass('hovered')
+    });
+
+// animate down button to position on page
+$("#downBtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#about").offset().top - 100},
+        1200);
+});
 
 
 

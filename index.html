@@ -28,6 +28,10 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Myriad Pro" rel="stylesheet">
+  
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
     <!-- ScrollReveal -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
@@ -124,11 +128,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 details-div">
+                <div class="col-md-4" id="details-div">
                     <h3>Details:</h3>
                     <p><span style="font-weight:bold;">Name:</span> Harry Clive Alexander Baines</p>
                     <p><span style="font-weight:bold;">Age:</span> 20 years</p>
-                    <p><span style="font-weight:bold;">Location:</span> Lancashire, United Kingdom</p>
+                    <p><span style="font-weight:bold;">Location:</span> Lancashire, UK</p>
                     <p><span style="font-weight:bold;">Email:</span> harryb0905@googlemail.com</p>
                     <ul class="list-inline">
                         <li>
@@ -145,10 +149,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-4 fa-bounce">
+                <div class="col-md-4">
                     <img class="profile-pic-about center-block" src="img/prof.png" alt="">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <h3>Info:</h3>
                     <p class="about-me-text">I am a 20 year old developer with a passion for Computing. I'm currently studying
                     Computer Science (MSci) at Lancaster University. I chose Computing as I enjoy problem solving, designing and implementing
@@ -177,14 +181,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <h3 class="portfolio-title">Fish Camera</h3>
-                                HTML, CSS
-                                <div class="bar">
-                                    <div class="level eighty">80%</div>
-                                </div>
-                                HTML, CSS
-                                <div class="bar">
-                                    <div class="level eighty">80%</div>
-                                </div>
+                                <p class="caption-text">A Raspberry Pi powered livestream of fish in our garden.</p>
                                 <i class="fa fa-search-plus fa-2x"></i>
                             </div>
                         </div>
@@ -196,6 +193,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <h3 class="portfolio-title">Algorithms</h3>
+                                <p class="caption-text">A Raspberry Pi powered livestream of fish in our garden.</p>
                                 <i class="fa fa-search-plus fa-2x"></i>
                             </div>
                         </div>
@@ -207,6 +205,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <h3 class="portfolio-title">Blinkstick</h3>
+                                <p class="caption-text">A Raspberry Pi powered livestream of fish in our garden.</p>
                                 <i class="fa fa-search-plus fa-2x"></i>
                             </div>
                         </div>
@@ -218,6 +217,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <h3 class="portfolio-title">NR</h3>
+                                <p class="caption-text">A Raspberry Pi powered livestream of fish in our garden.</p>
                                 <i class="fa fa-search-plus fa-2x"></i>
                             </div>
                         </div>
@@ -229,6 +229,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <h3 class="portfolio-title">iOS Productivity App</h3>
+                                <p class="caption-text">A Raspberry Pi powered livestream of fish in our garden.</p>
                                 <i class="fa fa-search-plus fa-2x"></i>
                             </div>
                         </div>
@@ -240,6 +241,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <h3 class="portfolio-title">GitHub Projects</h3>
+                                <p class="caption-text">A Raspberry Pi powered livestream of fish in our garden.</p>
                                 <i class="fa fa-search-plus fa-2x"></i>
                             </div>
                         </div>
@@ -268,6 +270,26 @@
                     <h3 id="language-header">Programming Languages:</h3>
                     <ul class="no-bullets">
                         <li>
+                            <span class="item-title-language">HTML</span>
+                            <span class="confidence-rating">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="item-title-language">CSS</span>
+                            <span class="confidence-rating">
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                                <span class="glyphicon glyphicon-star filled"></span>
+                            </span>
+                        </li>
+                        <li>
                             <span class="item-title-language">Python</span>
                             <span class="confidence-rating">
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -288,16 +310,6 @@
                             </span>
                         </li>
                         <li>
-                            <span class="item-title-language">HTML</span>
-                            <span class="confidence-rating">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
                             <span class="item-title-language">C</span>
                             <span class="confidence-rating">
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -308,17 +320,17 @@
                             </span>
                         </li>
                         <li>
-                            <span class="item-title-language">CSS</span>
+                            <span class="item-title-language">JavaScript</span>
                             <span class="confidence-rating">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star "></span>
                                 <span class="glyphicon glyphicon-star "></span>
                             </span>
                         </li>
                         <li>
-                            <span class="item-title-language">JavaScript</span>
+                            <span class="item-title-language">jQuery</span>
                             <span class="confidence-rating">
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
@@ -343,16 +355,6 @@
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
                                 <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                                <span class="glyphicon glyphicon-star "></span>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="item-title-language">jQuery</span>
-                            <span class="confidence-rating">
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star filled"></span>
-                                <span class="glyphicon glyphicon-star "></span>
                                 <span class="glyphicon glyphicon-star "></span>
                                 <span class="glyphicon glyphicon-star "></span>
                             </span>
@@ -560,15 +562,6 @@
        </div>
    </footer>
 
-    
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
     <!-- Portfolio Modals -->
     <!-- 1. Fish modal -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -585,6 +578,14 @@
                         <div class="modal-body">
                             <h2>Fish.com</h2>
                             <hr class="hr-line">
+                            HTML, CSS
+                            <div class="bar">
+                                <div class="level eighty">80%</div>
+                            </div>
+                            HTML, CSS
+                            <div class="bar">
+                                <div class="level eighty">80%</div>
+                            </div>
                             <img src="img/fish/me.JPG" class="img-responsive img-centered" alt="">
                             <p>Having a pond in your own garden will require constant monitoring and great care. So I decided
                             to create a wireless livestream using a Raspberry Pi, which would allow any user in our house
@@ -650,7 +651,7 @@
             </div>
         </div>
     </div>
-    <!-- Blinkstick modal -->
+    <!-- 3. Blinkstick modal -->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -688,6 +689,7 @@
             </div>
         </div>
     </div>
+    <!-- 4. ? modal -->
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -725,6 +727,7 @@
             </div>
         </div>
     </div>
+    <!-- 5. ? modal -->
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -762,6 +765,7 @@
             </div>
         </div>
     </div>
+    <!-- 6. GitHub modal -->
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -799,12 +803,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
