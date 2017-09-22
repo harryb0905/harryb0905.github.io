@@ -507,6 +507,9 @@ section.success {
 #portfolio {
   background-color: rgba(242, 239, 226, 0.9);
 }
+.portfolio-title {
+  font-size: 25pt;
+}
 .portfolio-title.title-hovered {
   animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
 }
@@ -554,7 +557,7 @@ section.success {
   color: white;
 }
 .caption-text {
-  font-size: 13pt;
+  font-size: 11pt;
   padding: 5px 15px;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -570,6 +573,13 @@ section.success {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
+  }
+  .caption-text {
+    font-size: 13pt;
+    padding: 5px 15px;
+  }
+  .portfolio-title {
+    font-size: 25pt;
   }
 }
 .floating-label-form-group {
