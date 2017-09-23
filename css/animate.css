@@ -126,6 +126,12 @@
 	    -ms-animation: eighty 1.5s ease-out forwards;
 	     -o-animation: eighty 1.5s ease-out forwards;
 	        animation: eighty 1.5s ease-out forwards;
+        /* Enable hardware acceleration to fix laggy transitions */
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
 }
 .ninety.start {
   width: 0px;
@@ -155,7 +161,24 @@
 	    width: 30%;
 	}
 }
+@-moz-keyframes fifty {
+    0% {
+        width: 0px;
+    }
 
+    100% {
+        width: 50%;
+    }
+}
+@-webkit-keyframes fifty {
+	0% {
+	    width: 0px;
+	}
+
+	100% {
+	    width: 50%;
+	}
+}
 @-moz-keyframes sixty {
     0% {
         width: 0px;
