@@ -98,8 +98,8 @@ header {
   text-align: center;
   background:
     linear-gradient(
-      rgba(70, 70, 70, 0.82),
-      rgba(70, 70, 70, 0.82)
+      rgba(90, 90, 90, 0.72),
+      rgba(90, 90, 90, 0.72)
     ),
     no-repeat center center url(../img/github/coding_sm.jpeg);
 
@@ -464,12 +464,11 @@ header .intro-text .skills {
 #downBtn.hovered {
   background-color: #18BC9C !important;
   color: white;
-  width: 80px;
-  transition: background-color 200ms linear, color 100ms linear, width 100ms linear;
+  transition: background-color 200ms linear, color 100ms linear;
   font-size: 11pt;
 }
 #downBtn.removed {
-  transition: background-color 200ms linear, color 100ms linear, width 100ms linear;
+  transition: background-color 200ms linear, color 100ms linear;
 }
 .btn-social.hovered {
   background-color: #18BC9C !important;
@@ -508,7 +507,7 @@ section.success {
   background-color: rgba(242, 239, 226, 0.9);
 }
 .portfolio-title {
-  font-size: 25pt;
+  font-size: 26pt;
 }
 .portfolio-title.title-hovered {
   animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
@@ -517,18 +516,18 @@ section.success {
   animation: 0.5s ease-in-out 0s 1 slideInFromRight;
 }
 #portfolio-quote {
-  padding: 20px;
+  padding: 15px;
 }
 #portfolio .portfolio-item {
   right: 0;
-  padding: 15px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
   font-weight: 400;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 300px;
+  max-width: 325px;
   margin: 0 auto;
   box-shadow: 7.5px 7.5px 7.5px #888888;
   animation: 1.4s ease-in-out 0s 1 slideInFromBottom;
@@ -557,7 +556,7 @@ section.success {
   color: white;
 }
 .caption-text {
-  font-size: 11pt;
+  font-size: 14pt;
   padding: 5px 15px;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -570,16 +569,25 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
+/* smaller grid iPad like view */
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px;
+    padding: 0px 22px 22px 22px;
   }
   .caption-text {
-    font-size: 13pt;
-    padding: 5px 15px;
+    font-size: 11pt;
   }
   .portfolio-title {
+    font-size: 18pt;
+  }
+}
+@media (min-width: 992px) {
+  .portfolio-title {
     font-size: 25pt;
+  }
+  .caption-text {
+    font-size: 14pt;
+    padding: 10px 15px;
   }
 }
 .floating-label-form-group {
@@ -794,7 +802,7 @@ fieldset[disabled] .btn-success.active {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 100px 0;
+  padding: 70px 0;
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
@@ -846,6 +854,13 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+#myCarousel {
+  width: 450px;
+  height: 350px;
+}
+#modal-info-text {
+  font-size: 13pt;
 }
 div#maincontent {
   outline: none;

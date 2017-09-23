@@ -99,8 +99,6 @@ $('.portfolio-link').hover(function() {
 // Scroll Reveal code
 window.srt = ScrollReveal({ reset: false });
 
-srt.reveal('.about-me-custom', { duration: 1200, origin: 'top' });
-srt.reveal('.about-me-text', { duration: 1200, origin: 'bottom' })
 srt.reveal('.details-div', { duration: 1200, origin: 'bottom' });
 srt.reveal('.portfolio-item', { duration: 1000});
 srt.reveal('.portfolio-text', { duration: 1400, origin: 'right'});
