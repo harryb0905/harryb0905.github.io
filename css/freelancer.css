@@ -340,7 +340,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a:hover {
   color: white;
-  background-color: rgba(102, 179, 255, 0.55);
+  background-color: rgba(102, 179, 255, 1);
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -371,7 +371,7 @@ header .intro-text .skills {
   border-color: #18BC9C;
 }
 .navbar-fixed-top.scrolled {
-  background-color: rgba(102, 179, 255, 0.75) !important;
+  background-color: rgba(102, 179, 255, 0.85) !important;
   transition: background-color 300ms linear;
 }
 .navbar-fixed-top .navbar-collapse a:before {
@@ -492,6 +492,12 @@ section.success {
 #education {
   background: #356600;
   opacity: 0.6;
+}
+#education p,ul {
+  color: black;
+}
+#education h4, h5 {
+  color: black;
 }
 @media (max-width: 767px) {
   section {
