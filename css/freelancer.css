@@ -499,6 +499,14 @@ section.success {
 #education h4, h5 {
   color: black;
 }
+.panel-body p {
+  font-size: 12pt;
+}
+#dofeG {
+  background-color: gold;
+  padding: 10px;
+  border-radius: 10%;
+}
 @media (max-width: 767px) {
   section {
     padding: 150px 0;
