@@ -6,9 +6,8 @@
     font-family: HaloHandletter;
     src: url('fonts/HaloHandletter.woff') format('woff');
 }
-html, body
+html
 {
-
 }
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -498,6 +497,9 @@ section.success {
 #education h4, h5 {
   color: black;
 }
+.panel-title {
+  text-align: center;
+}
 .panel-body p {
   font-size: 12pt;
 }
@@ -514,14 +516,22 @@ section.success {
 }
 .viewMore {
   margin: 20px 0px;
+  text-align: left;
 }
 .viewMoreBtn {
+  border-radius: 10%;
   background-color: #18BC9C;
   padding: 10px;
 }
 .viewMoreBtn:hover {
   color: white;
   text-decoration: none;
+}
+.footerFont {
+  color: aqua;
+  opacity: 0.5;
+  font-size: 100%;
+  line-height: 130%;
 }
 @media (max-width: 767px) {
   section {
@@ -700,8 +710,9 @@ footer .footer-col {
   margin-bottom: 200px;
 }
 footer .footer-below {
-  padding: 25px 0;
-  background-color: #233140;
+  height: 40px;
+  background-color: lightcyan;
+  color: black;
 }
 footer p {
   font-size: 90%;
