@@ -103,21 +103,6 @@
         </div>
     </header>
     
-    <!-- Need A Website Section -->
-    <section class="success" id="needweb">
-        <div class="container">
-          <div class="row fa-bounce">
-            <h1 id="needwebText">Need A Website?</h1>
-            <h3>Send me an email for details</h3>
-            <hr class="profile-line">
-            <a href="mailto:harryb0905@googlemail.com" class="btn-social btn-outline" id="largeEnv">
-                <span class="sr-only">Email</span>
-                <i class="fa fa-fw fa-envelope" id="largeEnvIcon"></i>
-            </a>
-          </div>
-        </div>
-    </section>
-
     <!-- About Me Section -->
     <section class="success" id="about">
         <div class="container">
@@ -130,10 +115,10 @@
             <div class="row">
                 <div class="col-md-4" id="details-div">
                     <h3>Details:</h3>
-                    <p><span style="font-weight:bold;">Name:</span> Harry Clive Alexander Baines</p>
-                    <p><span style="font-weight:bold;">Age:</span> 20 years</p>
-                    <p><span style="font-weight:bold;">Location:</span> Lancashire, UK</p>
-                    <p><span style="font-weight:bold;">Email:</span> harryb0905@googlemail.com</p>
+                    <p><strong>Name:</strong> Harry Clive Alexander Baines</p>
+                    <p><strong>Age:</strong> 20 years</p>
+                    <p><strong>Location:</strong> Lancashire, UK</p>
+                    <p><strong>Email:</strong> harryb0905@googlemail.com</p>
                     <ul class="list-inline">
                         <li>
                             <a href="https://www.facebook.com/harry.baines1" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
@@ -592,15 +577,23 @@
                         <div class="panel-body">
                             <h4>Duke of Edinburgh Gold Award (2015)</h4>
                             <img src="img/dofe.png" width="70" height="90" id="dofeG">
-                            <hr>
-                            <p>The residential section allowed me to meet new people and have some memorable experiences, as well as helping out the community. The expedition section pushed me to my limits and taught me the importance of tenacity, perseverance and teamwork. I particularly enjoyed the volunteering section, as I helped in the schools maths clinic on a weekly basis, and I thoroughly enjoyed helping younger students develop their maths skills.</p>
+                            <h4 class="panel-title viewMore">
+                                <a class="viewMoreBtn" data-toggle="collapse" data-parent="#accordion" href="#goldDofE">Info:</a>
+                            </h4>
+                            <div id="goldDofE" class="panel-collapse collapse">
+                              <p>The residential section allowed me to meet new people and have some memorable experiences, as well as helping out the community. The expedition section pushed me to my limits and taught me the importance of tenacity, perseverance and teamwork. I particularly enjoyed the volunteering section, as I helped in the schools maths clinic on a weekly basis, and I thoroughly enjoyed helping younger students develop their maths skills.</p>
+                            </div>
                         </div>
                         <hr>
                         <div class="panel-body">
                             <h4>Duke of Edinburgh Bronze Award (2014)</h4>
-                            <img src="img/dofe.png" width="50" height="70">
-                            <hr>
-                            <p>For this award I helped organise the storage facility at St. Catherines Hospice, learnt more about Astronomy by completing an extra GCSE and developed my golf ability on a weekly basis.</p>
+                            <img src="img/dofe.png" width="70" height="90" id="dofeB">
+                            <h4 class="panel-title viewMore">
+                                <a class="viewMoreBtn" data-toggle="collapse" data-parent="#accordion" href="#bronzeDofE">Info:</a>
+                            </h4>
+                            <div id="bronzeDofE" class="panel-collapse collapse">
+                              <p>For this award I helped organise the storage facility at St. Catherines Hospice, learnt more about Astronomy and completed an Astronomy GCSE and developed my golf ability on a weekly basis.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -612,36 +605,20 @@
     <footer class="text-center" id="contact">
        <div class="footer-above">
            <div class="container">
-               <div class="row">   
-                   <div class="footer-col col-md-4">
-                       <h3>Location</h3>
-                       <p>3481 Melrose Place
-                           <br>Beverly Hills, CA 90210</p>
-                   </div>
-                   <div class="footer-col col-md-4">
-                       <h3>Around the Web</h3>
-                       <ul class="list-inline">
-                           <li>
-                               <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
-                           </li>
-                           <li>
-                               <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
-                           </li>
-                           <li>
-                               <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
-                           </li>
-                           <li>
-                               <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
-                           </li>
-                           <li>
-                               <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
-                           </li>
-                       </ul>
-                   </div>
-                   <div class="footer-col col-md-4">
-                       <h3>About Freelancer</h3>
-                       <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                   </div>
+               <div class="row">    
+                   <h1>This website was created and designed with HTML, CSS, JavaScript and jQuery. I like to update this website
+                   regularly and keep my portfolio up-to-date.</h1>
+                   <div class="container" id="workProj">
+                    <div class="row fa-bounce">
+                      <h1 id="workProjText">Want to work on a project together?</h1>
+                      <h3>Send me an email for details!</h3>
+                      <hr class="profile-line">
+                      <a href="mailto:harryb0905@googlemail.com" class="btn-social btn-outline" id="largeEnv">
+                          <span class="sr-only">Email</span>
+                          <i class="fa fa-fw fa-envelope" id="largeEnvIcon"></i>
+                      </a>
+                    </div>
+                  </div>
                </div>
            </div>
        </div>
@@ -649,7 +626,7 @@
            <div class="container">
                <div class="row">
                    <div class="col-lg-12">
-                       Copyright &copy; Harry Baines 2017
+                       <p>Copyright &copy; Harry Baines 2017</p>
                    </div>
                </div>
            </div>
