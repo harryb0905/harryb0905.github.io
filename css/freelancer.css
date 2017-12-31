@@ -318,7 +318,7 @@ header .intro-text .skills {
   margin-left: 5px;
   transform: scale(1.4);
 }
-#language-header {
+.language-header {
   font-size: 16pt;
   margin-left: 45px;
   margin-bottom: 15px;
