@@ -308,11 +308,19 @@
 }
 
 .portfolio-item.start {
-  -webkit-animation: changeSize 0.85s infinite linear;
-     -moz-animation: changeSize 0.85s infinite linear;
-      -ms-animation: changeSize 0.85s infinite linear;
-       -o-animation: changeSize 0.85s infinite linear;
-          animation: changeSize 0.85s infinite linear;
+   -webkit-animation: changeSize 0.85s infinite linear;
+      -moz-animation: changeSize 0.85s infinite linear;
+       -ms-animation: changeSize 0.85s infinite linear;
+        -o-animation: changeSize 0.85s infinite linear;
+           animation: changeSize 0.85s infinite linear;
+ }
+
+.developer-pic.start {
+   -webkit-animation: changeSize 0.85s infinite linear;
+      -moz-animation: changeSize 0.85s infinite linear;
+       -ms-animation: changeSize 0.85s infinite linear;
+        -o-animation: changeSize 0.85s infinite linear;
+           animation: changeSize 0.85s infinite linear;
 }
 
 .cog {
@@ -345,7 +353,3 @@
         transform:rotate(360deg);
     }
 }
-
-
-
-
