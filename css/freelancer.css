@@ -96,8 +96,8 @@ header {
   text-align: center;
   background:
     linear-gradient(
-      rgba(120, 120, 120, 0.65),
-      rgba(120, 120, 120, 0.65)
+      rgba(130, 130, 130, 0.62),
+      rgba(130, 130, 130, 0.62)
     ),
     no-repeat center center url(../img/github/terminal.png);
 
@@ -120,6 +120,7 @@ header {
 }
 nav img.nav-pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+  filter: brightness(95%);
 
   margin: 10px 25px 10px 25px;
   width: 60px;
@@ -135,15 +136,16 @@ header .container {
 }
 .profile-pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
-  filter: brightness(175%);
+  filter: brightness(185%);
 
   display: block;
   margin: 0 auto;
+  margin-top: 65px;
   margin-bottom: 15px;
-  width: 200px;
-  height: 200px;
+  width: 225px;
+  height: 225px;
   border-radius: 50%;
-  border: 1.5px solid;
+  border: 2px solid;
   text-align: center;
   vertical-align: middle;
   z-index: 0;
@@ -221,8 +223,8 @@ header .container {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 1px solid white;
   text-align: center;
@@ -232,6 +234,7 @@ header .container {
 }
 header .intro-text .name, .skills {
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.9), 0 2px 2px 0 rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.1);
   display: inline-block;
   padding: 10px;
 }
@@ -251,12 +254,12 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 145px;
+    padding-top: 75px;
     padding-bottom: 100px;
   }
   header .intro-text .name {
     font-size: 3.5em;
-    padding: 30px;
+    padding: 35px 30px 35px 30px;
   }
   header .intro-text .skills {
     padding: 30px;
@@ -267,8 +270,8 @@ header .intro-text .skills {
     height: 100px;
   }
   .profile-pic {
-    width: 240px;
-    height: 240px;
+    width: 260px;
+    height: 260px;
   }
   .profile-pic-about {
     width: 275px;
@@ -338,7 +341,7 @@ header .intro-text .skills {
   margin-bottom: 15px;
 }
 .navbar-custom {
-  background: none;
+  background: rgba(48, 108, 198, 0.6);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -364,7 +367,6 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a:hover {
   color: white;
-  background-color: rgba(102, 179, 255, 1);
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -385,7 +387,7 @@ header .intro-text .skills {
   text-transform: uppercase;
   font-size: 10px;
   border-color: white;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-right: 20px;
 }
 .navbar-custom .navbar-toggle:hover,
@@ -395,8 +397,8 @@ header .intro-text .skills {
   border-color: #18BC9C;
 }
 .navbar-fixed-top.scrolled {
-  background-color: rgba(102, 179, 255, 0.85) !important;
-  transition: background-color 300ms linear;
+  background-color: rgba(102, 179, 235, 0.85) !important;
+  transition: background-color 400ms linear;
 }
 .navbar-fixed-top .navbar-collapse a:before {
   content: "";
@@ -419,7 +421,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 10px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
