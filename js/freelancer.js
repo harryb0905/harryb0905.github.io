@@ -15,7 +15,7 @@
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
-        offset: 100
+        offset: 102
     });
 
     // Closes the Responsive Menu on Menu Item Click
@@ -53,25 +53,25 @@ $(window).resize(function() {
   }
 });
 
-// change opacity of top div once navbar is showm
-$('#bs-example-navbar-collapse-1').on('show.bs.collapse', function () {
-   $('header').animate({
-         opacity: 0.2
-    }, 'fast');
-    
-    $('.navbar-custom li a').css({"color": "black"});
-    
-});
-
-// change opacity of top div once navbar is hidden
-$('#bs-example-navbar-collapse-1').on('hidden.bs.collapse', function () {
-   $('header').animate({
-         opacity: 1
-    }, 'fast');
-    
-   $('.navbar-custom li a').css({"color": "white"});
-
-});
+//// change opacity of top div once navbar is showm
+//$('#bs-example-navbar-collapse-1').on('show.bs.collapse', function () {
+//   $('header').animate({
+//         opacity: 0.2
+//    }, 'fast');
+//
+//    $('.navbar-custom li a').css({"color": "black"});
+//
+//});
+//
+//// change opacity of top div once navbar is hidden
+//$('#bs-example-navbar-collapse-1').on('hidden.bs.collapse', function () {
+//   $('header').animate({
+//         opacity: 1
+//    }, 'fast');
+//
+//   $('.navbar-custom li a').css({"color": "white"});
+//
+//});
 
 // toggle navbar collapse when clicking outside of navabar
 $(document).click(function (event) {
@@ -126,7 +126,7 @@ $("#downBtn").hover(
         //mouse out
         $(this).addClass('removed')
         $(this).removeClass('hovered')
-    });
+});
 
 // animate down button to position on page
 $("#downBtn").click(function() {

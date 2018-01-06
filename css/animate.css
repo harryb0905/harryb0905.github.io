@@ -281,7 +281,7 @@
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-.btn-social:hover {
+.btn-social:hover, .developer-pic:hover {
   transform: scale(1.2);
 }
 
@@ -314,13 +314,11 @@
         -o-animation: changeSize 0.85s infinite linear;
            animation: changeSize 0.85s infinite linear;
  }
-
-.developer-pic.start {
-   -webkit-animation: changeSize 0.85s infinite linear;
-      -moz-animation: changeSize 0.85s infinite linear;
-       -ms-animation: changeSize 0.85s infinite linear;
-        -o-animation: changeSize 0.85s infinite linear;
-           animation: changeSize 0.85s infinite linear;
+.developer-pic {
+    transition: all .2s ease-in-out;
+ }
+.developer-pic:hover {
+    transform: scale(1.2);
 }
 
 .cog {
