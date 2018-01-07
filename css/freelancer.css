@@ -12,7 +12,7 @@ html
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
-  overflow: auto;
+  overflow-x: hidden;
 }
 p {
   font-size: 20px;
@@ -102,20 +102,21 @@ header {
   text-align: center;
   background:
     linear-gradient(
-      rgba(130, 130, 130, 0.62),
-      rgba(130, 130, 130, 0.62)
+      rgba(120, 120, 120, 0.7),
+      rgba(120, 120, 120, 0.7)
     ),
     no-repeat center center url(../img/github/terminal.png);
+
+  margin-bottom: 0px;
+  padding: 0px;
+  border-bottom: 3px solid white;
+
 
   color: white;
   webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    
-  margin-bottom: 0px;
-  padding: 0px;
-  border-bottom: 3px solid white;
 }
 @media only screen and (max-width: 767px) {
   header {
@@ -125,13 +126,14 @@ header {
   }
 }
 nav img.nav-pic {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
   filter: brightness(95%);
 
   margin: 10px 25px 10px 25px;
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  border: 1px solid white;
   text-align: center;
   vertical-align: middle;
 }
@@ -142,7 +144,8 @@ header .container {
 }
 .profile-pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
-  filter: brightness(185%);
+  filter: brightness(200%);
+  animation: 2s slideInFromTop;
 
   display: block;
   margin: 0 auto;
@@ -196,12 +199,12 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
 #largeEnv {
     position: relative;
     bottom: 15px;
-    width: 75px;
-    height: 75px;    
+    width: 50px;
+    height: 50px;
 }
 #largeEnvIcon {
-    line-height: 68px;
-    font-size: 36px;
+    line-height: 45px;
+    font-size: 26px;
 }
 .about-me-text {
   font-size: 13pt;
@@ -211,10 +214,10 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
   border-bottom: 3px solid white;
   background:
     linear-gradient(
-      rgba(80, 80, 80, 0.8),
-      rgba(80, 80, 80, 0.8)
+      rgba(60, 60, 60, 0.78),
+      rgba(60, 60, 60, 0.78)
     ),
-    no-repeat center center url(../img/woodbg.jpg);
+    no-repeat center center url(../img/bg.jpg);
   
   webkit-background-size: cover;
   -moz-background-size: cover;
@@ -250,25 +253,23 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
   z-index: 0;
   opacity: 0.9;
 }
-header .intro-text .name, .skills {
+header .intro-text .name {
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.9), 0 2px 2px 0 rgba(0, 0, 0, 0.9);
   background-color: rgba(0, 0, 0, 0.1);
   display: inline-block;
-  padding: 10px;
-}
-header .intro-text .name {
-  font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 2em;
-}
-header .intro-text .skills {
-  /*animation: 1.4s ease-in-out 0s 1 slideInFromBottom;*/
-  font-size: 1.2em;
-  font-weight: 200;
-  font-family: "Varela Round", "sans-serif";
-  letter-spacing: 0.05em;
-  margin: 20px 40px 0 40px;
+  padding: 15px 30px 15px 30px;
+  background:
+        linear-gradient(
+          rgba(60, 60, 60, 0.78),
+          rgba(60, 60, 60, 0.78)
+        ),
+        no-repeat center center url(../img/bg.jpg);
+
+    animation: 2s slideInFromLeft;
+    font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2.5em;
 }
 @media (min-width: 768px) {
   header .container {
@@ -276,8 +277,8 @@ header .intro-text .skills {
     padding-bottom: 100px;
   }
   header .intro-text .name {
-    font-size: 3.5em;
-    padding: 35px 30px 35px 30px;
+    padding: 25px 30px 25px 30px;
+    font-size: 3em;
   }
   header .intro-text .skills {
     padding: 30px;
@@ -359,7 +360,7 @@ header .intro-text .skills {
   margin-bottom: 15px;
 }
 .navbar-custom {
-  background: rgba(48, 108, 140, 1);
+  background: rgba(0, 77, 173, 0.8);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -415,7 +416,7 @@ header .intro-text .skills {
   border-color: #18BC9C;
 }
 .navbar-fixed-top.scrolled {
-  background-color: rgba(102, 179, 235, 0.85) !important;
+  background-color: rgba(0, 128, 255, 0.8) !important;
   transition: background-color 400ms linear;
 }
 .navbar-fixed-top .navbar-collapse a:before {
@@ -501,10 +502,10 @@ header .intro-text .skills {
     margin: 0 auto;
     margin-top: 75px;
     line-height: 75px;
-    color: rgba(48, 118, 181, 0.8);
+    color: rgba(0, 77, 173, 0.8);
 }
 #downBtn.hovered {
-  background-color: rgba(48, 118, 181, 0.75) !important;
+  background-color: rgba(48, 118, 181, 0.95) !important;
   color: white;
   transition: background-color 200ms linear, color 100ms linear;
   font-size: 11pt;
@@ -760,8 +761,8 @@ footer .footer-above {
   text-align: center;
   background:
     linear-gradient(
-      rgba(90, 90, 90, 0.75),
-      rgba(90, 90, 90, 0.75)
+      rgba(60, 60, 60, 0.85),
+      rgba(60, 60, 60, 0.85)
     ),
     no-repeat center center url(../img/fish/footer.jpg);
   
@@ -786,6 +787,14 @@ footer .footer-below {
 footer p {
   font-size: 90%;
   margin-top: 12px;
+}
+footer #footer-text {
+    font-size: 175%;
+    line-height: 1.5em;
+    padding: 0 20px 0 20px;
+}
+#footer-work p {
+    font-size: 150%;
 }
 .btn-outline {
   color: white;
@@ -948,7 +957,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr {
   height: 75px;
   width: 1px;
-  margin-left: 50;
+  margin-left: 40px;
   background-color: #2C3E50;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -966,7 +975,7 @@ fieldset[disabled] .btn-success.active {
   /* IE 9 */
   -webkit-transform: rotate(90deg);
   /* Safari and Chrome */
-  z-index: 1052;
+  z-index: 1051;
 }
 .portfolio-modal .modal-backdrop {
   opacity: 0;
@@ -1030,24 +1039,23 @@ div#maincontent {
 }
 /* Terminal CSS */
 .shell-wrap {
-  width: 950px;
+  width: 375px;
   margin: 30px auto 0 auto;
   box-shadow: 0 0 30px rgba(0,0,0,0.4);
-  animation: 1.8s ease-in-out 0s 1 slideInFromBottom;
+  animation: 2s ease-in-out 0s 1 slideInFromBottom;
 
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-
 .shell-body {
   text-align: left;
   margin: 0;
   padding: 30px;
   list-style: none;
-  background: rgba(20, 20, 20, 0.9);
+  background: rgba(20, 20, 20, 0.88);
   color: #45D40C;
-  font: 1.7em 'Andale Mono', Consolas, 'Courier New';
+  font: 1.05em 'Andale Mono', Consolas, 'Courier New';
   line-height: 1.6em;
 
   -webkit-border-bottom-right-radius: 3px;
@@ -1057,16 +1065,43 @@ div#maincontent {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-
 .shell-body li:before {
   content: '>';
   position: absolute;
   left: 0;
   top: 0;
 }
-
 .shell-body li {
   word-wrap: break-word;
   position: relative;
-  padding: 0 0 0 30px;
+  padding: 0 0 0 20px;
+}
+/* Terminal for larger devices */
+@media (min-width: 768px) {
+    .shell-wrap {
+        width: 500px;
+        font: 1.4em 'Andale Mono', Consolas, 'Courier New';
+    }
+    .shell-body li {
+      padding: 0 0 0 30px;
+    }
+    footer #footer-text {
+        font-size: 250%;
+    }
+    footer #footer-work {
+        font-size: 110%;
+    }
+    #footer-work p {
+        font-size: 150%;
+    }
+    #largeEnv {
+        position: relative;
+        bottom: 15px;
+        width: 75px;
+        height: 75px;
+    }
+    #largeEnvIcon {
+        line-height: 68px;
+        font-size: 36px;
+    }
 }

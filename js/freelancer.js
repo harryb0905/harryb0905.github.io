@@ -7,7 +7,7 @@
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 100)
+            scrollTop: ($($anchor.attr('href')).offset().top)
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
@@ -19,7 +19,7 @@
     });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
+    $('.navbar-collapse ul li a').click(function(){
             $('.navbar-toggle:visible').click();
     });
 
@@ -29,17 +29,6 @@
             top: 100
         }
     })
-
-    // Floating label headings for the contact form
-    $(function() {
-        $("body").on("input propertychange", ".floating-label-form-group", function(e) {
-            $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
-        }).on("focus", ".floating-label-form-group", function() {
-            $(this).addClass("floating-label-form-group-with-focus");
-        }).on("blur", ".floating-label-form-group", function() {
-            $(this).removeClass("floating-label-form-group-with-focus");
-        });
-    });
 
 })(jQuery); // End of use strict
 
@@ -103,9 +92,6 @@ srt.reveal('.details-div', { duration: 1200, origin: 'bottom' });
 srt.reveal('.portfolio-item', { duration: 1000});
 srt.reveal('.portfolio-text', { duration: 1400, origin: 'right'});
 srt.reveal('#portfolio-quote', { duration: 1400, origin: 'top'});
-srt.reveal('.name', { duration: 1800, origin: 'left'});
-srt.reveal('.skills', { duration: 1900, origin: 'right'});
-srt.reveal('.profile-pic', { duration: 1700, origin: 'top'});
 srt.reveal('#languages', { duration: 800, origin: 'bottom'});
 
 // navbar change color on scroll
@@ -129,10 +115,12 @@ $("#downBtn").hover(
 });
 
 // animate down button to position on page
-$("#downBtn").click(function() {
+$("#downBtn").on('click', function(e) {
+    e.preventDefault();
+
     $('html,body').animate({
-        scrollTop: $("#about").offset().top - 100},
-        1200);
+        scrollTop: $("#about").offset().top
+        }, 1750, 'easeInOutSine');
 });
 
 // animate in a portfolio item title on hover

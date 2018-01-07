@@ -33,8 +33,8 @@
     <script>
       $( function() {
         $( '.type-text' ).teletype( {
-          text: ["Computer Science Student, Programmer, Software Developer"],
-          typeDelay: 0.1,
+          text: ["Computer Science Student, Coder"],
+          typeDelay: 1,
           backDelay: 0,
           loop: 1,
           preserve: true
@@ -127,7 +127,6 @@
                 <img class="profile-pic" src="img/harry_new.jpg" alt="">
                 <div class="intro-text">
                     <h1 class="name">Harry Baines</h1>
-                    <!--<h1 class="skills">Computer Science Student - Programmer - Software Developer</h1>-->
                     <div class="shell-wrap">
                         <ul class="shell-body">
                             <li>
@@ -370,7 +369,7 @@
                             <hr>
                             <h4>University Results:</h4>
                             <ul>
-                                <li>First Year - <strong>83.8%</strong> Average (<strong>First Class</strong>)</li>
+                                <li>First Year - <strong>83.8%</strong> Average <strong>(First Class)</strong></li>
                                 <li>Second Year - <strong>79.4%</strong> Average <strong>(Ongoing)</strong></li>
                                 <li>Third Year - ...</li>
                                 <li>Fourth Year - ...</li>
@@ -743,18 +742,22 @@
     <footer class="text-center" id="contact">
        <div class="footer-above">
            <div class="container">
-               <div class="row">    
-                 <h1>This website was created with <span class="footerFont">HTML</span> and designed using <span class="footerFont">CSS</span>. I used <span class="footerFont">JavaScript</span> and <span class="footerFont">jQuery</span> for the animations and transitions. I like to update this <span class="footerFont">website</span> regularly and keep my <span class="footerFont">portfolio</span> up-to-date.
+               <div class="row">
+                   <h1 id="footer-text">This website was created with <span class="footerFont">HTML</span> and designed
+                       using <span class="footerFont">CSS</span>. I used <span class="footerFont">JavaScript</span> and
+                       <span class="footerFont">jQuery</span> for the animations and transitions. I like to update this
+                       <span class="footerFont">website</span> regularly and keep my <span
+                               class="footerFont">portfolio</span> up-to-date.
                    </h1>
                    <div class="container" id="workProj">
-                    <div class="row fa-bounce">
+                       <div class="row fa-bounce" id="footer-work">
                         <h1 id="workProjText">Want to work on a project?</h1>
-                      <h3>Send me an email for details!</h3>
-                      <hr class="profile-line">
-                      <a href="mailto:harryb0905@googlemail.com" class="btn-social btn-outline" id="largeEnv">
-                          <span class="sr-only">Email</span>
-                          <i class="fa fa-fw fa-envelope" id="largeEnvIcon"></i>
-                      </a>
+                           <p>Send me an email for details!</p>
+                           <hr class="profile-line">
+                           <a href="mailto:harryb0905@googlemail.com" class="btn-social btn-outline" id="largeEnv">
+                               <span class="sr-only">Email</span>
+                               <i class="fa fa-fw fa-envelope" id="largeEnvIcon"></i>
+                           </a>
                     </div>
                   </div>
                </div>
