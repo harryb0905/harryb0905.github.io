@@ -221,6 +221,13 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
   -o-background-size: cover;
   background-size: cover;
 }
+.skills-list {
+    color: black;
+    font-weight: bold;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
 #about-me-custom {
     color: black;
 }
@@ -1020,4 +1027,46 @@ div#maincontent {
 #contact {
   border-bottom: 3px solid white;
     /*background-color: #2C3E50;*/
+}
+/* Terminal CSS */
+.shell-wrap {
+  width: 950px;
+  margin: 30px auto 0 auto;
+  box-shadow: 0 0 30px rgba(0,0,0,0.4);
+  animation: 1.8s ease-in-out 0s 1 slideInFromBottom;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.shell-body {
+  text-align: left;
+  margin: 0;
+  padding: 30px;
+  list-style: none;
+  background: rgba(20, 20, 20, 0.9);
+  color: #45D40C;
+  font: 1.7em 'Andale Mono', Consolas, 'Courier New';
+  line-height: 1.6em;
+
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.shell-body li:before {
+  content: '>';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.shell-body li {
+  word-wrap: break-word;
+  position: relative;
+  padding: 0 0 0 30px;
 }
