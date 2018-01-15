@@ -145,7 +145,6 @@ header .container {
 .profile-pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
   filter: brightness(200%);
-  animation: 2s slideInFromTop;
 
   display: block;
   margin: 0 auto;
@@ -154,11 +153,13 @@ header .container {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 2px solid;
+  border: 1px solid white;
   text-align: center;
   vertical-align: middle;
   z-index: 0;
   opacity: 0.9;
+  animation: 2s slideInFromTop;
+
 }
 a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
 {
@@ -194,7 +195,7 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
     padding: 50px 0;
 }
 #workProjText {
-    font-size: 200%;
+    font-size: 150%;
 }
 #largeEnv {
     position: relative;
@@ -214,10 +215,10 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
   border-bottom: 3px solid white;
   background:
     linear-gradient(
-      rgba(60, 60, 60, 0.78),
-      rgba(60, 60, 60, 0.78)
+      rgba(60, 60, 60, 0.68),
+      rgba(60, 60, 60, 0.68)
     ),
-    no-repeat center center url(../img/bg.jpg);
+    no-repeat center center url(../img/bgg.jpg);
   
   webkit-background-size: cover;
   -moz-background-size: cover;
@@ -298,6 +299,9 @@ header .intro-text .name {
   }
   #about p {
     font-size: 14pt;
+  }
+  #workProjText {
+    font-size: 200%;
   }
 }
 .no-bullets {
@@ -623,10 +627,10 @@ color: white;
   font-size: 26pt;
 }
 .portfolio-title.title-hovered {
-  animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+  animation: 0.25s ease-in-out 0s 1 slideInFromLeft;
 }
 .caption-text.text-hovered {
-  animation: 0.5s ease-in-out 0s 1 slideInFromRight;
+  animation: 0.25s ease-in-out 0s 1 slideInFromRight;
 }
 #portfolio-quote {
   padding: 20px;
@@ -1055,11 +1059,11 @@ div#maincontent {
 .shell-body {
   text-align: left;
   margin: 0;
-  padding: 30px;
+  padding: 20px 15px 20px 15px;
   list-style: none;
   background: rgba(20, 20, 20, 0.88);
   color: #45D40C;
-  font: 1.05em 'Andale Mono', Consolas, 'Courier New';
+  font: 1em 'Andale Mono', Consolas, 'Courier New';
   line-height: 1.6em;
 
   -webkit-border-bottom-right-radius: 3px;
@@ -1085,6 +1089,9 @@ div#maincontent {
     .shell-wrap {
         width: 500px;
         font: 1.4em 'Andale Mono', Consolas, 'Courier New';
+    }
+    .shell-body {
+       padding: 30px;
     }
     .shell-body li {
       padding: 0 0 0 30px;
