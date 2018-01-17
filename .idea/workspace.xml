@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3420b1ea-e3d9-4839-8612-d942df922805" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/css/animate.css" afterPath="$PROJECT_DIR$/css/animate.css" />
       <change beforePath="$PROJECT_DIR$/css/freelancer.css" afterPath="$PROJECT_DIR$/css/freelancer.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -19,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="867" column="74" lean-forward="false" selection-start-line="867" selection-start-column="74" selection-end-line="867" selection-end-column="74" />
+            <state relative-caret-position="5769">
+              <caret line="1133" column="62" lean-forward="false" selection-start-line="1133" selection-start-column="62" selection-end-line="1133" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -29,8 +30,8 @@
       <file leaf-file-name="freelancer.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/freelancer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="967" column="19" lean-forward="false" selection-start-line="967" selection-start-column="19" selection-end-line="967" selection-end-column="19" />
+            <state relative-caret-position="553">
+              <caret line="790" column="26" lean-forward="false" selection-start-line="790" selection-start-column="26" selection-end-line="790" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -49,8 +50,8 @@
       <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/animate.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1473">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="373">
+              <caret line="285" column="1" lean-forward="false" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -59,8 +60,8 @@
       <file leaf-file-name="freelancer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/freelancer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2580">
-              <caret line="172" column="5" lean-forward="false" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -70,25 +71,15 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>terminal.png</find>
-      <find>footerF</find>
-      <find>footer-text</find>
-      <find>center</find>
-      <find>.center</find>
-      <find>footer</find>
-      <find>caption</find>
-      <find>caption-text</find>
       <find>portfolio-line</find>
       <find>portfolio-item</find>
       <find>350</find>
       <find>carousel</find>
       <find>myCar</find>
       <find>portfl</find>
-      <find>portfolio</find>
       <find>blink.png</find>
       <find>modal-title</find>
       <find>descr</find>
-      <find>develop</find>
       <find>descrip</find>
       <find>description</find>
       <find>barC</find>
@@ -100,6 +91,16 @@
       <find>item-details</find>
       <find>descriptio</find>
       <find>item-de</find>
+      <find>developer-pic</find>
+      <find>deve</find>
+      <find>develop</find>
+      <find>tooltip</find>
+      <find>portfolio</find>
+      <find>hr</find>
+      <find>profile-pic</find>
+      <find>header</find>
+      <find>footerFont</find>
+      <find>footer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,11 +121,11 @@
       <list>
         <option value="/Buildout config Fragment (index.html:2822).cfg" />
         <option value="$PROJECT_DIR$/js/charts.js" />
-        <option value="$PROJECT_DIR$/css/animate.css" />
         <option value="$PROJECT_DIR$/js/freelancer.js" />
         <option value="$PROJECT_DIR$/contact_me.php" />
         <option value="$PROJECT_DIR$/js/jqBootstrapValidation.js" />
         <option value="$PROJECT_DIR$/js/contact_me.js" />
+        <option value="$PROJECT_DIR$/css/animate.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/freelancer.css" />
       </list>
@@ -765,18 +766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1473">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/freelancer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2580">
-          <caret line="172" column="5" lean-forward="false" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -789,18 +782,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="285" column="1" lean-forward="false" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="867" column="74" lean-forward="false" selection-start-line="867" selection-start-column="74" selection-end-line="867" selection-end-column="74" />
+        <state relative-caret-position="5769">
+          <caret line="1133" column="62" lean-forward="false" selection-start-line="1133" selection-start-column="62" selection-end-line="1133" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/freelancer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="967" column="19" lean-forward="false" selection-start-line="967" selection-start-column="19" selection-end-line="967" selection-end-column="19" />
+        <state relative-caret-position="553">
+          <caret line="790" column="26" lean-forward="false" selection-start-line="790" selection-start-column="26" selection-end-line="790" selection-end-column="26" />
           <folding />
         </state>
       </provider>

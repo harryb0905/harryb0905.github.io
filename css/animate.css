@@ -284,7 +284,6 @@
 .btn-social:hover, .developer-pic:hover {
   transform: scale(1.2);
 }
-
 @keyframes changeSize {
 	0% {
 	    transform: scale(1);
