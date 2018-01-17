@@ -79,6 +79,11 @@ hr.profile-line {
   border-radius: 10px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.7), 0 0px 1px 0 rgba(0, 0, 0, 0.5);
 }
+hr.port-content-line {
+  border: 2px solid black;
+  width: 150px;
+  border-radius: 10px;
+}
 hr.portfolio-line {
   border: 1px solid white;
   width: 50%;
@@ -176,6 +181,7 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
     margin-top: 25px;
     margin-left: 10px;
     border: 1px solid #18BC9C;
+    background-color: white;
 }
 #skills {
     border-bottom: 3px solid white;
@@ -716,6 +722,9 @@ color: white;
     padding: 10px 15px;
   }
 }
+.description-text {
+    margin-top: 50px;
+}
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
@@ -956,8 +965,8 @@ fieldset[disabled] .btn-success.active {
   margin-bottom: 30px;
 }
 .portfolio-modal .modal-content .item-details {
-  margin-bottom: 20px;
-  color: #18BC9C;
+  margin-bottom: 25px;
+  color: #1a53ff;
 }
 .portfolio-modal .close-modal {
   position: absolute;
@@ -1002,8 +1011,8 @@ fieldset[disabled] .btn-success.active {
     margin-top: 20px;
 }
 #myCarousel {
-  width: 450px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   background-size: cover;
   margin: 0 auto;
   vertical-align: middle;
@@ -1029,23 +1038,29 @@ fieldset[disabled] .btn-success.active {
 .modal-text {
   margin-top: 30px;
 }
-.modal-title {
-    margin-top:20px;
-}
 .modal-info-text {
   font-size: 16pt;
-  font-weight: 350;
-  margin-top: 20px;
+  font-weight: 300;
+  margin-top: 15px;
 }
 div#maincontent {
   outline: none;
 }
+.description-wrapper {
+    background-color: rgba(196, 212, 239, 0.5);
+    padding: 0px 40px 10px 40px;
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.4);
+}
 .barChart {
-    max-width: 400px;
+    max-width: 300px;
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    top: 25px;
 }
 .scaleUp {
   transform: scale(1.4);
@@ -1089,7 +1104,12 @@ div#maincontent {
   position: relative;
   padding: 0 0 0 20px;
 }
-/* Terminal for larger devices */
+@media (min-width: 568px) {
+    .modal-info-text {
+        margin-top: 25px;
+    }
+}
+/* For larger devices */
 @media (min-width: 768px) {
     .shell-wrap {
         width: 500px;
@@ -1119,6 +1139,29 @@ div#maincontent {
     #largeEnvIcon {
         line-height: 68px;
         font-size: 36px;
+    }
+    #myCarousel {
+      width: 375px;
+      height: 250px;
+      background-size: cover;
+      margin: 0 auto;
+      vertical-align: middle;
+    }
+    .carousel-inner {
+        height: 100%;
+    }
+    .barChart {
+        max-width: 400px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 15px;
+        right: 55px;
+    }
+    .modal-info-text {
+        margin-top: -15px;
     }
 }
 .pdflink:link {

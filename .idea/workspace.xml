@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3420b1ea-e3d9-4839-8612-d942df922805" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/freelancer.css" afterPath="$PROJECT_DIR$/css/freelancer.css" />
-      <change beforePath="$PROJECT_DIR$/img/blinkstick/blink.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/sportsdaycode.png" afterPath="$PROJECT_DIR$/img/sportsdaycode.png" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/transcript1.pdf" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="292" column="55" lean-forward="false" selection-start-line="292" selection-start-column="55" selection-end-line="292" selection-end-column="55" />
+            <state relative-caret-position="282">
+              <caret line="867" column="74" lean-forward="false" selection-start-line="867" selection-start-column="74" selection-end-line="867" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="freelancer.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="freelancer.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/freelancer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="711" column="17" lean-forward="false" selection-start-line="711" selection-start-column="17" selection-end-line="711" selection-end-column="17" />
+            <state relative-caret-position="358">
+              <caret line="967" column="19" lean-forward="false" selection-start-line="967" selection-start-column="19" selection-end-line="967" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -41,7 +39,7 @@
       <file leaf-file-name="charts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/charts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
+            <state relative-caret-position="675">
               <caret line="68" column="70" lean-forward="false" selection-start-line="68" selection-start-column="70" selection-end-line="68" selection-end-column="70" />
               <folding />
             </state>
@@ -72,36 +70,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>downB</find>
-      <find>name</find>
-      <find>about</find>
-      <find>header</find>
-      <find>contac</find>
-      <find>success</find>
-      <find>conta</find>
-      <find>form-wrapper§</find>
-      <find>form-control</find>
-      <find>alert-da</find>
-      <find>Not a value</find>
-      <find>help-block</find>
-      <find>text-dang</find>
-      <find>contact</find>
-      <find>EMAIL</find>
-      <find>data-validation-required-message</find>
-      <find>placeholder</find>
       <find>terminal.png</find>
-      <find>portfolio</find>
       <find>footerF</find>
       <find>footer-text</find>
       <find>center</find>
       <find>.center</find>
       <find>footer</find>
-      <find>9</find>
       <find>caption</find>
       <find>caption-text</find>
       <find>portfolio-line</find>
       <find>portfolio-item</find>
       <find>350</find>
+      <find>carousel</find>
+      <find>myCar</find>
+      <find>portfl</find>
+      <find>portfolio</find>
+      <find>blink.png</find>
+      <find>modal-title</find>
+      <find>descr</find>
+      <find>develop</find>
+      <find>descrip</find>
+      <find>description</find>
+      <find>barC</find>
+      <find>9</find>
+      <find>95</find>
+      <find>barCha</find>
+      <find>modal-info-text</find>
+      <find>modal-info</find>
+      <find>item-details</find>
+      <find>descriptio</find>
+      <find>item-de</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,8 +125,8 @@
         <option value="$PROJECT_DIR$/contact_me.php" />
         <option value="$PROJECT_DIR$/js/jqBootstrapValidation.js" />
         <option value="$PROJECT_DIR$/js/contact_me.js" />
-        <option value="$PROJECT_DIR$/css/freelancer.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/freelancer.css" />
       </list>
     </option>
   </component>
@@ -753,14 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/charts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="70" lean-forward="false" selection-start-line="68" selection-start-column="70" selection-end-line="68" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact_me.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -791,18 +781,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/freelancer.css">
+    <entry file="file://$PROJECT_DIR$/js/charts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="711" column="17" lean-forward="false" selection-start-line="711" selection-start-column="17" selection-end-line="711" selection-end-column="17" />
+        <state relative-caret-position="675">
+          <caret line="68" column="70" lean-forward="false" selection-start-line="68" selection-start-column="70" selection-end-line="68" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="292" column="55" lean-forward="false" selection-start-line="292" selection-start-column="55" selection-end-line="292" selection-end-column="55" />
+        <state relative-caret-position="282">
+          <caret line="867" column="74" lean-forward="false" selection-start-line="867" selection-start-column="74" selection-end-line="867" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/freelancer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="967" column="19" lean-forward="false" selection-start-line="967" selection-start-column="19" selection-end-line="967" selection-end-column="19" />
           <folding />
         </state>
       </provider>
