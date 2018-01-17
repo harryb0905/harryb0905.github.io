@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3420b1ea-e3d9-4839-8612-d942df922805" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/animate.css" afterPath="$PROJECT_DIR$/css/animate.css" />
       <change beforePath="$PROJECT_DIR$/css/freelancer.css" afterPath="$PROJECT_DIR$/css/freelancer.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/charts.js" afterPath="$PROJECT_DIR$/js/charts.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5769">
-              <caret line="1133" column="62" lean-forward="false" selection-start-line="1133" selection-start-column="62" selection-end-line="1133" selection-end-column="62" />
+            <state relative-caret-position="803">
+              <caret line="867" column="46" lean-forward="false" selection-start-line="867" selection-start-column="46" selection-end-line="867" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -30,8 +30,8 @@
       <file leaf-file-name="freelancer.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/freelancer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="790" column="26" lean-forward="false" selection-start-line="790" selection-start-column="26" selection-end-line="790" selection-end-column="26" />
+            <state relative-caret-position="373">
+              <caret line="1148" column="17" lean-forward="false" selection-start-line="1148" selection-start-column="17" selection-end-line="1148" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -40,8 +40,8 @@
       <file leaf-file-name="charts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/charts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="68" column="70" lean-forward="false" selection-start-line="68" selection-start-column="70" selection-end-line="68" selection-end-column="70" />
+            <state relative-caret-position="165">
+              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -71,36 +71,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>portfolio-line</find>
-      <find>portfolio-item</find>
-      <find>350</find>
-      <find>carousel</find>
-      <find>myCar</find>
-      <find>portfl</find>
-      <find>blink.png</find>
-      <find>modal-title</find>
-      <find>descr</find>
-      <find>descrip</find>
-      <find>description</find>
-      <find>barC</find>
-      <find>9</find>
-      <find>95</find>
-      <find>barCha</find>
-      <find>modal-info-text</find>
-      <find>modal-info</find>
-      <find>item-details</find>
-      <find>descriptio</find>
-      <find>item-de</find>
-      <find>developer-pic</find>
-      <find>deve</find>
-      <find>develop</find>
-      <find>tooltip</find>
-      <find>portfolio</find>
-      <find>hr</find>
       <find>profile-pic</find>
-      <find>header</find>
-      <find>footerFont</find>
-      <find>footer</find>
+      <find>z-index</find>
+      <find>z-index1</find>
+      <find>lr</find>
+      <find>descriptio</find>
+      <find>modal-cont</find>
+      <find>portfolio-modal</find>
+      <find>title</find>
+      <find>close</find>
+      <find>close-mo</find>
+      <find>portfol</find>
+      <find>portfolio-line</find>
+      <find>dius:</find>
+      <find>descr</find>
+      <find>myCar</find>
+      <find>btn</find>
+      <find>modal-info</find>
+      <find>close-modal</find>
+      <find>close-mod</find>
+      <find>myCao</find>
+      <find>myCa</find>
+      <find>1028</find>
+      <find>@media (max-width: 1024px) {</find>
+      <find>desc</find>
+      <find>description</find>
+      <find>portfolio</find>
+      <find>modal</find>
+      <find>modal-title</find>
+      <find>descrip</find>
+      <find>myCarousel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,13 +120,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="/Buildout config Fragment (index.html:2822).cfg" />
-        <option value="$PROJECT_DIR$/js/charts.js" />
         <option value="$PROJECT_DIR$/js/freelancer.js" />
         <option value="$PROJECT_DIR$/contact_me.php" />
         <option value="$PROJECT_DIR$/js/jqBootstrapValidation.js" />
         <option value="$PROJECT_DIR$/js/contact_me.js" />
         <option value="$PROJECT_DIR$/css/animate.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/charts.js" />
         <option value="$PROJECT_DIR$/css/freelancer.css" />
       </list>
     </option>
@@ -181,6 +181,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -371,6 +372,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22857143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -383,7 +385,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -766,6 +767,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="285" column="1" lean-forward="false" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/freelancer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -776,32 +785,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/charts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="68" column="70" lean-forward="false" selection-start-line="68" selection-start-column="70" selection-end-line="68" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="285" column="1" lean-forward="false" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5769">
-          <caret line="1133" column="62" lean-forward="false" selection-start-line="1133" selection-start-column="62" selection-end-line="1133" selection-end-column="62" />
+        <state relative-caret-position="803">
+          <caret line="867" column="46" lean-forward="false" selection-start-line="867" selection-start-column="46" selection-end-line="867" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/freelancer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="790" column="26" lean-forward="false" selection-start-line="790" selection-start-column="26" selection-end-line="790" selection-end-column="26" />
+        <state relative-caret-position="373">
+          <caret line="1148" column="17" lean-forward="false" selection-start-line="1148" selection-start-column="17" selection-end-line="1148" selection-end-column="17" />
           <folding />
         </state>
       </provider>

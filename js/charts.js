@@ -29,10 +29,6 @@
           responsive: true,
           scales: {
             yAxes:[{
-                scaleLabel: {
-                    display: true,
-                    labelString: 'Language',
-                },
                 barThickness: 20,
                 ticks: {
                     beginAtZero:true,

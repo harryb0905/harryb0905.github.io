@@ -91,6 +91,11 @@ hr.portfolio-line {
   position: relative;
   top: -5px;
 }
+hr.modal-line {
+  border: 2px solid black;
+  width: 200px;
+  border-radius: 10px;
+}
 hr.hr-line {
   border: 3px solid white;
   width: 100px;
@@ -151,7 +156,7 @@ header .container {
 }
 .profile-pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
-  filter: brightness(200%);
+  filter: brightness(220%);
 
   display: block;
   margin: 0 auto;
@@ -280,6 +285,18 @@ header .intro-text .name {
     font-weight: 600;
     font-size: 2.5em;
 }
+#downBtn {
+    visibility: hidden;
+}
+#downBtn.hovered {
+  background-color: rgba(48, 118, 181, 0.95) !important;
+  color: white;
+  transition: background-color 200ms linear, color 100ms linear;
+  font-size: 11pt;
+}
+#downBtn.removed {
+  transition: background-color 200ms linear, color 100ms linear;
+}
 @media (min-width: 768px) {
   header .container {
     padding-top: 75px;
@@ -300,6 +317,7 @@ header .intro-text .name {
   .profile-pic {
     width: 220px;
     height: 220px;
+    margin-top: 80px;
   }
   .profile-pic-about {
     width: 275px;
@@ -310,6 +328,17 @@ header .intro-text .name {
   }
   #workProjText {
     font-size: 200%;
+  }
+  #downBtn {
+    visibility: visible;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 75px;
+    line-height: 75px;
+    color: rgba(0, 77, 173, 0.8);
   }
 }
 .no-bullets {
@@ -509,25 +538,6 @@ header .intro-text .name {
     .collapsing {
         overflow: hidden!important;
     }
-}
-#downBtn {
-    width: 75px;
-    height: 75px;
-    background-color: white;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-top: 75px;
-    line-height: 75px;
-    color: rgba(0, 77, 173, 0.8);
-}
-#downBtn.hovered {
-  background-color: rgba(48, 118, 181, 0.95) !important;
-  color: white;
-  transition: background-color 200ms linear, color 100ms linear;
-  font-size: 11pt;
-}
-#downBtn.removed {
-  transition: background-color 200ms linear, color 100ms linear;
 }
 .btn-social.hovered {
   background-color: #18BC9C !important;
@@ -949,7 +959,7 @@ fieldset[disabled] .btn-success.active {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 40px 0;
+  padding: 5px 0;
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
@@ -965,20 +975,20 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal .close-modal {
   position: absolute;
-  width: 75px;
-  height: 75px;
+  width: 55px;
+  height: 55px;
   background-color: transparent;
-  top: 25px;
-  right: 25px;
+  top: 50px;
+  right: 20px;
   cursor: pointer;
 }
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
 .portfolio-modal .close-modal .lr {
-  height: 75px;
+  height: 55px;
   width: 1px;
-  margin-left: 40px;
+  margin-left: 20px;
   background-color: #2C3E50;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -988,7 +998,7 @@ fieldset[disabled] .btn-success.active {
   z-index: 1051;
 }
 .portfolio-modal .close-modal .lr .rl {
-  height: 75px;
+  height: 55px;
   width: 1px;
   background-color: #2C3E50;
   transform: rotate(90deg);
@@ -1004,6 +1014,9 @@ fieldset[disabled] .btn-success.active {
 }
 .modal-body {
     margin-top: 20px;
+}
+.close-btn {
+    margin-bottom: 20px;
 }
 .tooltip {
     position: relative;
@@ -1029,7 +1042,7 @@ fieldset[disabled] .btn-success.active {
     visibility: visible;
 }
 #myCarousel {
-  width: 300px;
+  width: 275px;
   height: 200px;
   background-size: cover;
   margin: 0 auto;
@@ -1057,7 +1070,7 @@ fieldset[disabled] .btn-success.active {
   margin-top: 30px;
 }
 .modal-info-text {
-  font-size: 16pt;
+  font-size: 11pt;
   font-weight: 300;
   margin-top: 15px;
 }
@@ -1065,11 +1078,15 @@ div#maincontent {
   outline: none;
 }
 .description-wrapper {
-    background-color: rgba(196, 212, 239, 0.5);
+    background-color: rgba(196, 212, 239, 0.3);
     padding: 0px 40px 10px 40px;
-    margin: 50px;
+    margin: 25px 20px;
     border-radius: 5px;
     box-shadow: 0 0 30px rgba(0,0,0,0.4);
+}
+.modal-title {
+    font-size: 8pt;
+    margin-top: 35px;
 }
 .barChart {
     max-width: 300px;
@@ -1124,7 +1141,27 @@ div#maincontent {
 }
 @media (min-width: 568px) {
     .modal-info-text {
-        margin-top: 25px;
+        margin: 15px 45px 0px 45px;
+        font-size: 16pt;
+    }
+    #myCarousel {
+      width: 325px;
+      height: 225px;
+      background-size: cover;
+      margin: 0 auto;
+      vertical-align: middle;
+    }
+    .description-wrapper {
+        margin: 40px 50px;
+    }
+    .portfolio-modal .close-modal {
+      position: absolute;
+      top: 80px;
+      right: 90px;
+    }
+    .barChart {
+        position: relative;
+        top: 25px;
     }
 }
 /* For larger devices */
@@ -1159,8 +1196,8 @@ div#maincontent {
         font-size: 36px;
     }
     #myCarousel {
-      width: 375px;
-      height: 250px;
+      width: 400px;
+      height: 275px;
       background-size: cover;
       margin: 0 auto;
       vertical-align: middle;
@@ -1175,11 +1212,35 @@ div#maincontent {
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        top: 15px;
-        right: 55px;
+        top: 25px;
+        right: 15px;
+    }
+    .description-text {
+        margin-top: 55px;
     }
     .modal-info-text {
-        margin-top: -15px;
+        margin-top: 30px;
+    }
+    .modal-title {
+        font-size: 13pt;
+        margin-top: 40px;
+    }
+    .portfolio-modal .close-modal {
+      position: absolute;
+      top: 80px;
+      right: 90px;
+    }
+}
+@media (min-width: 1024px) {
+    .barChart {
+        position: relative;
+        top: -10px;
+    }
+    .description-text {
+        margin-top: 15px;
+    }
+    .modal-info-text {
+        margin-top: -20px;
     }
 }
 .pdflink:link {
