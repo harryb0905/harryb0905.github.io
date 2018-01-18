@@ -128,14 +128,18 @@ $('.portfolio-link').hover(function() {
     // mouse over
     var title = $(this).find($('.portfolio-title'));
     var text = $(this).find($('.caption-text'));
+    var line = $(this).find($('.portfolio-line'));
     $(title).addClass('title-hovered')
     $(text).addClass('text-hovered')
+    $(line).addClass('line-hovered')
 }, function() {
     //mouse out
     var title = $(this).find($('.portfolio-title'));
     var text = $(this).find($('.caption-text'));
+    var line = $(this).find($('.portfolio-line'));
     $(title).removeClass('title-hovered')
     $(text).removeClass('text-hovered')
+    $(line).removeClass('line-hovered')
 });
 
 // animate the level bars once modal window has opened
@@ -162,12 +166,12 @@ $('.portfolio-link').click(function() {
 });
 
 // Floating label headings for the contact form
-  $(function() {
-    $("body").on("input propertychange", ".floating-label-form-group", function(e) {
-      $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
-    }).on("focus", ".floating-label-form-group", function() {
-      $(this).addClass("floating-label-form-group-with-focus");
-    }).on("blur", ".floating-label-form-group", function() {
-      $(this).removeClass("floating-label-form-group-with-focus");
-    });
-  });
+//  $(function() {
+//    $("body").on("input propertychange", ".floating-label-form-group", function(e) {
+//      $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
+//    }).on("focus", ".floating-label-form-group", function() {
+//      $(this).addClass("floating-label-form-group-with-focus");
+//    }).on("blur", ".floating-label-form-group", function() {
+//      $(this).removeClass("floating-label-form-group-with-focus");
+//    });
+//  });
