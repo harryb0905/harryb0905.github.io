@@ -187,6 +187,7 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
     margin-left: 10px;
     border: 1px solid #18BC9C;
     background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
 }
 #skills {
     border-bottom: 3px solid white;
@@ -733,7 +734,8 @@ color: white;
   }
 }
 .description-text {
-    margin-top: 50px;
+    margin-top: 30px;
+    font-size: 125%;
 }
 .floating-label-form-group {
   position: relative;
@@ -1047,6 +1049,7 @@ fieldset[disabled] .btn-success.active {
   background-size: cover;
   margin: 0 auto;
   vertical-align: middle;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 .carousel-inner {
     height: 100%;
@@ -1066,19 +1069,16 @@ fieldset[disabled] .btn-success.active {
   width: 450px;
   height: 300px;
 }
-.modal-text {
-  margin-top: 30px;
-}
 .modal-info-text {
   font-size: 11pt;
-  font-weight: 300;
+  font-weight: 200;
   margin-top: 15px;
 }
 div#maincontent {
   outline: none;
 }
 .description-wrapper {
-    background-color: rgba(196, 212, 239, 0.3);
+    background-color: rgba(0,0,0,0.05);
     padding: 0px 40px 10px 40px;
     margin: 25px 20px;
     border-radius: 5px;
@@ -1141,8 +1141,8 @@ div#maincontent {
 }
 @media (min-width: 568px) {
     .modal-info-text {
-        margin: 15px 45px 0px 45px;
-        font-size: 16pt;
+        margin: 15px 25px 0px 25px;
+        font-size: 14pt;
     }
     #myCarousel {
       width: 325px;
@@ -1150,14 +1150,15 @@ div#maincontent {
       background-size: cover;
       margin: 0 auto;
       vertical-align: middle;
+      margin-top: 0px;
     }
     .description-wrapper {
-        margin: 40px 50px;
+        margin: 50px 25px;
     }
     .portfolio-modal .close-modal {
       position: absolute;
       top: 80px;
-      right: 90px;
+      right: 50px;
     }
     .barChart {
         position: relative;
@@ -1201,6 +1202,8 @@ div#maincontent {
       background-size: cover;
       margin: 0 auto;
       vertical-align: middle;
+      margin-top: 0px;
+      margin-bottom: 50px;
     }
     .carousel-inner {
         height: 100%;
@@ -1211,15 +1214,9 @@ div#maincontent {
         padding-right: 0;
         margin-left: auto;
         margin-right: auto;
-        position: relative;
-        top: 25px;
-        right: 15px;
-    }
-    .description-text {
-        margin-top: 55px;
     }
     .modal-info-text {
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .modal-title {
         font-size: 13pt;
@@ -1230,17 +1227,31 @@ div#maincontent {
       top: 80px;
       right: 90px;
     }
+    .description-wrapper {
+        margin: 50px 75px;
+    }
 }
 @media (min-width: 1024px) {
     .barChart {
         position: relative;
         top: -10px;
     }
-    .description-text {
-        margin-top: 15px;
-    }
     .modal-info-text {
-        margin-top: -20px;
+        margin-top: 20px;
+        font-size: 150%;
+    }
+    .description-wrapper {
+        margin: 50px 75px;
+    }
+    #myCarousel {
+        width: 450px;
+        height: 300px;
+    }
+    hr.modal-line {
+        margin-bottom: 30px;
+    }
+    .description-text {
+        margin-top: 5px;
     }
 }
 .pdflink:link {
