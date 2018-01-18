@@ -162,8 +162,8 @@ header .container {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 15px;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 1px solid white;
   text-align: center;
@@ -284,7 +284,7 @@ header .intro-text .name {
     font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 #downBtn {
     visibility: hidden;
@@ -402,7 +402,7 @@ header .intro-text .name {
   margin-bottom: 15px;
 }
 .navbar-custom {
-  background: rgba(0, 77, 173, 0.8);
+  background: rgba(0, 77, 153, 0.9);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -657,8 +657,11 @@ color: white;
 #portfolio .portfolio-item {
   right: 0;
   padding: 5px 15px;
-  border-radius: 5px;
   font-weight: 400;
+}
+#portfolio .portfolio-item img {
+  border-radius: 5%;
+  box-shadow: 0 0 30px rgba(0,0,0,0.4);
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
@@ -678,6 +681,7 @@ color: white;
   -moz-transition: all ease 0.3s;
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
+  border-radius: 5%;
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -686,7 +690,7 @@ color: white;
   height: 100%;
   font-size: 16px;
   text-align: center;
-  top: 25%;
+  top: 20%;
   margin-top: -12px;
   color: white;
 }
@@ -1045,11 +1049,11 @@ fieldset[disabled] .btn-success.active {
 }
 #myCarousel {
   width: 275px;
-  height: 200px;
+  height: 175px;
   background-size: cover;
   margin: 0 auto;
   vertical-align: middle;
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 .carousel-inner {
     height: 100%;
@@ -1086,7 +1090,7 @@ div#maincontent {
 }
 .modal-title {
     font-size: 8pt;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 .barChart {
     max-width: 300px;
@@ -1102,7 +1106,7 @@ div#maincontent {
 }
 /* Terminal CSS */
 .shell-wrap {
-  width: 375px;
+  width: 355px;
   margin: 30px auto 0 auto;
   box-shadow: 0 0 30px rgba(0,0,0,0.4);
   animation: 2s ease-in-out 0s 1 slideInFromBottom;
@@ -1118,7 +1122,7 @@ div#maincontent {
   list-style: none;
   background: rgba(20, 20, 20, 0.88);
   color: #45D40C;
-  font: 1em 'Andale Mono', Consolas, 'Courier New';
+  font: 1.1em 'Andale Mono', Consolas, 'Courier New';
   line-height: 1.6em;
 
   -webkit-border-bottom-right-radius: 3px;
@@ -1169,7 +1173,7 @@ div#maincontent {
 @media (min-width: 768px) {
     .shell-wrap {
         width: 500px;
-        font: 1.4em 'Andale Mono', Consolas, 'Courier New';
+        font: 1.3em 'Andale Mono', Consolas, 'Courier New';
     }
     .shell-body {
        padding: 30px;
@@ -1220,7 +1224,7 @@ div#maincontent {
     }
     .modal-title {
         font-size: 13pt;
-        margin-top: 40px;
+        margin-top: 45px;
     }
     .portfolio-modal .close-modal {
       position: absolute;
@@ -1252,6 +1256,7 @@ div#maincontent {
     }
     .description-text {
         margin-top: 5px;
+        font-size: 150%;
     }
 }
 .pdflink:link {

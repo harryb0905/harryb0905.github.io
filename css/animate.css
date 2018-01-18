@@ -290,15 +290,15 @@
 	}
   
     25% {
-	    transform: scale(1.02);
+	    transform: scale(1.01);
     }
 
     50% {
-	    transform: scale(1.04);
+	    transform: scale(1.03);
     }
 
     75% {
-	    transform: scale(1.02);
+	    transform: scale(1.01);
     }
 
 	100% {
