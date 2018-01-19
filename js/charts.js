@@ -55,25 +55,25 @@
           responsiveAnimationDuration: 900
       };
 
-      var fishBar = document.getElementsByClassName("barChart")[0].getContext("2d");
-      var myHorizontalBar = new Chart(fishBar, {
-          type: 'horizontalBar',
-          data: fishData,
-          options: opts
-      });
-
-      var blinkBarDesk = document.getElementsByClassName("barChart")[1].getContext("2d");
-            var myHorizontalBar3 = new Chart(blinkBarDesk, {
-                type: 'horizontalBar',
-                data: blink3DeskData,
-                options: opts
-            });
-
-      var blinkBarWeb = document.getElementsByClassName("barChart")[2].getContext("2d");
-      var myHorizontalBar2 = new Chart(blinkBarWeb, {
-          type: 'horizontalBar',
-          data: blink3WebData,
-          options: opts
-      });
+//      var fishBar = document.getElementsByClassName("barChart")[0].getContext("2d");
+//      var myHorizontalBar = new Chart(fishBar, {
+//          type: 'horizontalBar',
+//          data: fishData,
+//          options: opts
+//      });
+//
+//      var blinkBarDesk = document.getElementsByClassName("barChart")[1].getContext("2d");
+//            var myHorizontalBar3 = new Chart(blinkBarDesk, {
+//                type: 'horizontalBar',
+//                data: blink3DeskData,
+//                options: opts
+//            });
+//
+//      var blinkBarWeb = document.getElementsByClassName("barChart")[2].getContext("2d");
+//      var myHorizontalBar2 = new Chart(blinkBarWeb, {
+//          type: 'horizontalBar',
+//          data: blink3WebData,
+//          options: opts
+//      });
 
 });

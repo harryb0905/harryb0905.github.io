@@ -1041,7 +1041,7 @@ fieldset[disabled] .btn-success.active {
 .dev-link:hover .tooltiptext {
     visibility: visible;
 }
-#myCarousel {
+.myCarousel {
   width: 250px;
   height: 150px;
   background-size: cover;
@@ -1133,7 +1133,7 @@ div#maincontent {
         margin: 15px 25px 0px 25px;
         font-size: 14pt;
     }
-    #myCarousel {
+    .myCarousel {
       width: 325px;
       height: 225px;
       background-size: cover;
@@ -1188,7 +1188,7 @@ div#maincontent {
         line-height: 68px;
         font-size: 36px;
     }
-    #myCarousel {
+    .myCarousel {
       width: 400px;
       height: 275px;
       background-size: cover;
@@ -1235,7 +1235,7 @@ div#maincontent {
     .description-wrapper {
         margin: 50px 75px;
     }
-    #myCarousel {
+    .myCarousel {
         width: 450px;
         height: 300px;
     }

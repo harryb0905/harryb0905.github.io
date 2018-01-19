@@ -158,7 +158,7 @@ $('.portfolio-modal').on('hidden.bs.modal', function () {
 });
 
 $('.portfolio-link').click(function() {
-    $('#myCarousel').carousel({
+    $('.myCarousel').carousel({
         pause: true,
         interval: false
     }).carousel(0);
