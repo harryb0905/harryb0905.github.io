@@ -116,24 +116,13 @@ header {
     linear-gradient(
       rgba(120, 120, 120, 0.7),
       rgba(120, 120, 120, 0.7)
-    ),
-    no-repeat center center url(../img/github/terminal.jpeg);
+    );
 
-  margin-bottom: 0px;
-  padding: 0px;
   border-bottom: 3px solid white;
-
-
   color: white;
-  webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 @media only screen and (max-width: 767px) {
   header {
-    /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
     background-attachment: scroll;
   }
 }
@@ -613,20 +602,13 @@ section.success {
   }
 }
 #portfolio {
-color: white;
+  color: white;
   border-bottom: 3px solid white;
-
   background:
-        linear-gradient(
-          rgba(60, 60, 60, 0.27),
-          rgba(60, 60, 60, 0.27)
-        ),
-        no-repeat center center url(../img/bluebg.png);
-
-      webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+    linear-gradient(
+      rgba(60, 60, 60, 0.27),
+      rgba(60, 60, 60, 0.27)
+    );
 }
 .portfolio-title {
   font-size: 26pt;
@@ -799,12 +781,14 @@ footer .footer-above {
     linear-gradient(
       rgba(90, 90, 90, 0.88),
       rgba(90, 90, 90, 0.8)
-    ),
-    no-repeat center center url(../img/github/coding.png);
+    );
 
   webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-size: cover;
 }
 footer .footer-col {
@@ -1018,26 +1002,6 @@ fieldset[disabled] .btn-success.active {
 .close-btn {
     margin-bottom: 20px;
 }
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: -5px;
-    left: 105%;
-}
 .dev-link:hover .tooltiptext {
     visibility: visible;
 }
@@ -1154,7 +1118,7 @@ div#maincontent {
         top: 25px;
     }
     footer .footer-above {
-        padding: 200px 0;
+        padding: 225px 0;
     }
 }
 /* For larger devices */
