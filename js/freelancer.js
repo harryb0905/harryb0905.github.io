@@ -144,10 +144,9 @@ $('.portfolio-link').hover(function() {
 
 // animate the level bars once modal window has opened
 $('.portfolio-modal').on('shown.bs.modal',function(event){
-
-  var id = "#" + $(this).closest(".portfolio-modal").attr("id");
-  var bars = $(id).find(".bar .level");  
-  $(bars).addClass('start');
+    //  var id = "#" + $(this).closest(".portfolio-modal").attr("id");
+    //  var bars = $(id).find(".bar .level");
+    //  $(bars).addClass('start');
 });
 
 // animate the level bars once modal window has opened

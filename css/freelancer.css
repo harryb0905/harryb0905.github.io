@@ -614,13 +614,12 @@ section.success {
 }
 #portfolio {
 color: white;
-  background-color: rgba(220, 220, 226, 0.7);
   border-bottom: 3px solid white;
 
   background:
         linear-gradient(
-          rgba(60, 60, 60, 0.37),
-          rgba(60, 60, 60, 0.37)
+          rgba(60, 60, 60, 0.27),
+          rgba(60, 60, 60, 0.27)
         ),
         no-repeat center center url(../img/bluebg.png);
 
@@ -660,7 +659,6 @@ hr.portfolio-line.line-hovered {
   max-width: 330px;
   margin: 0 auto;
   border-radius: 10%;
-  border: 1px solid white;
   animation: 1.4s ease-in-out 0s 1 slideInFromBottom;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -972,8 +970,8 @@ fieldset[disabled] .btn-success.active {
   margin-bottom: 30px;
 }
 .portfolio-modal .modal-content .item-details {
-  margin-bottom: 25px;
-  color: #1a53ff;
+  margin-bottom: 35px;
+  color: #18BC9C;
 }
 .portfolio-modal .close-modal {
   position: absolute;
@@ -981,7 +979,7 @@ fieldset[disabled] .btn-success.active {
   height: 55px;
   background-color: transparent;
   top: 50px;
-  right: 20px;
+  right: 30px;
   cursor: pointer;
 }
 .portfolio-modal .close-modal:hover {
@@ -1044,8 +1042,8 @@ fieldset[disabled] .btn-success.active {
     visibility: visible;
 }
 #myCarousel {
-  width: 275px;
-  height: 175px;
+  width: 250px;
+  height: 150px;
   background-size: cover;
   margin: 0 auto;
   vertical-align: middle;
@@ -1069,7 +1067,7 @@ div#maincontent {
   outline: none;
 }
 .description-wrapper {
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0,0,0,0.02);
     padding: 0px 40px 10px 40px;
     margin: 25px 20px;
     border-radius: 5px;
