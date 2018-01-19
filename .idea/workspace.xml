@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3420b1ea-e3d9-4839-8612-d942df922805" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/freelancer.css" afterPath="$PROJECT_DIR$/css/freelancer.css" />
+      <change beforePath="$PROJECT_DIR$/img/Moss.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/calmd.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/moor.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="229" column="99" lean-forward="false" selection-start-line="229" selection-start-column="99" selection-end-line="229" selection-end-column="99" />
+              <caret line="229" column="103" lean-forward="false" selection-start-line="229" selection-start-column="103" selection-end-line="229" selection-end-column="103" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -35,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="freelancer.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="freelancer.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/freelancer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="1120" column="20" lean-forward="false" selection-start-line="1120" selection-start-column="20" selection-end-line="1120" selection-end-column="20" />
+            <state relative-caret-position="428">
+              <caret line="608" column="20" lean-forward="false" selection-start-line="608" selection-start-column="20" selection-end-line="608" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -134,8 +136,8 @@
         <option value="$PROJECT_DIR$/css/animate.css" />
         <option value="$PROJECT_DIR$/js/charts.js" />
         <option value="$PROJECT_DIR$/js/freelancer.js" />
-        <option value="$PROJECT_DIR$/css/freelancer.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/freelancer.css" />
       </list>
     </option>
   </component>
@@ -871,18 +873,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/freelancer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="1120" column="20" lean-forward="false" selection-start-line="1120" selection-start-column="20" selection-end-line="1120" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="229" column="99" lean-forward="false" selection-start-line="229" selection-start-column="99" selection-end-line="229" selection-end-column="99" />
+          <caret line="229" column="103" lean-forward="false" selection-start-line="229" selection-start-column="103" selection-end-line="229" selection-end-column="103" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -893,6 +887,14 @@
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/freelancer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="608" column="20" lean-forward="false" selection-start-line="608" selection-start-column="20" selection-end-line="608" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
