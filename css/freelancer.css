@@ -605,10 +605,7 @@ section.success {
   color: white;
   border-bottom: 3px solid white;
   background:
-    linear-gradient(
-      rgba(10, 10, 10, 0.17),
-      rgba(60, 60, 60, 0.17)
-    );
+    linear-gradient(145deg, #3333ff, #ccffdd 60%, #006622);
 }
 .portfolio-title {
   font-size: 26pt;
@@ -786,9 +783,6 @@ footer .footer-above {
   webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
   background-size: cover;
 }
 footer .footer-col {
