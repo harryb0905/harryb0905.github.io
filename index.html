@@ -26,9 +26,18 @@
     <!-- Custom Animation CSS -->
     <link href="css/animate.css" rel="stylesheet">
 
+    <!-- Custom Animation for JS -->
+    <link href="css/animatev2.css" rel="stylesheet">
+
+    <script src="js/wow.js/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
     <!-- Charts Javascript -->
     <script type="text/javascript" src="js/charts.js"></script>
 
+    <!-- Parallax Scrolling -->
     <script src="js/parallax.js"></script>
 
     <script src="js/jquery.teletype.js"></script>
@@ -137,7 +146,7 @@
                         </ul>
                     </div>
                 </div>
-                <a class="btn arrow-bounce" href="#about" id="downBtn">
+                <a class="btn" href="#about" id="downBtn">
                     <i class="fa fa-lg fa-3x fa-arrow-down" aria-hidden="true"></i>
                 </a>
             </div>
@@ -184,15 +193,19 @@
                     <p class="about-me-text">I am a 20 year old developer with a passion for Computing. I'm currently studying
                     Computer Science (MSci) at Lancaster University. I chose Computing as I enjoy problem solving, designing and implementing
                     algorithms and learning about computer architecture. Logical problem solving has always appealed to me and I find
-                    the mathematical aspects of Computing to be of great interest to me. My current area of interest is developing
-                    web applications.</p>
+                    the mathematical aspects of Computing to be of great interest to me.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <h4>Skills:</h4>
+                            </div>
+                        </div>
                         <div class="panel-body">
-                            <p class="skills-list">
+                            <p id="skills-list">
                                 During my degree I have been exposed to many languages. <strong>Java</strong> was used to develop
                                 our understanding of <strong>Object Orientation</strong>, and <strong>Python</strong> to enhance our <strong>Dynamic Scripting</strong> abilities.
                                 Other languages I have studied include; <strong>C</strong>, <strong>PHP</strong>, <strong>Erlang</strong> and <strong>Processing</strong>.<br><br>
@@ -208,10 +221,7 @@
                                 I use <strong>Git</strong> for <strong>Version Control</strong> whenever I am programming. I find it a very useful tool
                                 for collaboration on team projects and for managing changes to source code over time in my own personal projects.<br><br>
 
-                                In First Year of University, we were introduced to <strong>Discrete Mathematics</strong> which involved set theory, functions, and propositional and predicate logic.
-                                These concepts provide the foundations for programming and Computer Science in general.<br><br>
-
-                                In Second Year of University, in the <strong>Operating Systems</strong> module we were asked to implement a Java program that could
+                                In Second Year of University in the <strong>Operating Systems</strong> module, we were asked to implement a Java program that could
                                 traverse an <strong>ext2 filesystem</strong> partition. This was incredibly fascinating learning about how filesystems are represented
                                 in computers. We were also introduced to key <strong>concurrency</strong> concepts such as multi-threading, locks and semaphores
                                 which help to provide faster execution times than sequential code.<br><br>
@@ -227,7 +237,7 @@
     </section>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section class="parallax-window" data-parallax="scroll" data-image-src="img/wood.jpeg" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -778,31 +788,30 @@
     
     <!-- Footer -->
     <footer class="text-center">
-       <div class="footer-above parallax-window" data-parallax="scroll" data-image-src="img/github/coding.png" id="footer">
-           <div class="container">
-               <div class="row">
-                   <h1 id="footer-text">This website was created with <span class="footerFont">HTML</span> and designed
-                       using <span class="footerFont">CSS</span>. I used <span class="footerFont">JavaScript</span> and
-                       <span class="footerFont">jQuery</span> for the animations and transitions. This <span class="footerFont">website</span> is based on the
-                       <span class="footerFont">Twitter Bootstrap</span> framework. I like to update this
-                       <span class="footerFont">website</span> regularly and keep my <span
+        <div class="footer-above parallax-window" data-parallax="scroll" data-image-src="img/github/coding.png" id="footer">
+            <div class="container">
+                <div class="row wow zoomInLeft">
+                    <h1 id="footer-text">This website was created with <span class="footerFont">HTML</span> and designed
+                        using <span class="footerFont">CSS</span>. I used <span class="footerFont">JavaScript</span> and
+                        <span class="footerFont">jQuery</span> for the animations and transitions. This <span class="footerFont">website</span> is based on the
+                        <span class="footerFont">Twitter Bootstrap</span> framework. I like to update this
+                        <span class="footerFont">website</span> regularly and keep my <span
                                class="footerFont">portfolio</span> up-to-date.
-                   </h1>
-                   <!--<div class="container" id="workProj">-->
-                       <!--<div class="row fa-bounce" id="footer-work">-->
-                        <!--<h1 id="workProjText">Want to work on a project?</h1>-->
-                           <!--<p>Send me an email for details!</p>-->
-                           <!--<hr class="profile-line">-->
-                           <!--<a href="mailto:harryb0905@googlemail.com" class="btn-social btn-outline" id="largeEnv">-->
-                               <!--<span class="sr-only">Email</span>-->
-                               <!--<i class="fa fa-fw fa-envelope" id="largeEnvIcon"></i>-->
-                           <!--</a>-->
-                    <!--</div>-->
-                  </div>
-               </div>
-           </div>
-       </div>
-       <div class="footer-below">
+                    </h1>
+                </div>
+               <!--<div class="container" id="workProj">-->
+                   <!--<div class="row fa-bounce" id="footer-work">-->
+                    <!--<h1 id="workProjText">Want to work on a project?</h1>-->
+                       <!--<p>Send me an email for details!</p>-->
+                       <!--<hr class="profile-line">-->
+                       <!--<a href="mailto:harryb0905@googlemail.com" class="btn-social btn-outline" id="largeEnv">-->
+                           <!--<span class="sr-only">Email</span>-->
+                           <!--<i class="fa fa-fw fa-envelope" id="largeEnvIcon"></i>-->
+                       <!--</a>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <div class="footer-below">
            <div class="container">
                <div class="row">
                    <div class="col-lg-12">
@@ -810,7 +819,7 @@
                    </div>
                </div>
            </div>
-       </div>
+        </div>
    </footer>
 
     <!-- Portfolio Modals -->
@@ -926,14 +935,14 @@
                             <h3 class="description-text">Description:</h3>
                             <hr class="port-content-line">
                             <p class="modal-info-text">I teamed up with Nathaniel to create a desktop
-                                client application for the Blinkstick. The Blinkstick is a very basic
+                                client application for the <a href="https://www.blinkstick.com/" target="_blank">Blinkstick</a>. The Blinkstick is a very basic
                                 programmable LED device. We decided to create an all-in-one application
                                 which would enable the user to change the color, brightness and various
                                 other features of their Blinkstick once plugged into their computer.<br><br>
                                 View the <strong>desktop</strong> version:- <a
-                                        href="https://github.com/harryb0905/Blink3">Blink3 Desktop</a><br>
+                                        href="https://github.com/harryb0905/Blink3" target="_blank">Blink3 Desktop</a><br>
                                 View the <strong>web-based</strong> version:- <a
-                                        href="https://github.com/itisNathaniel/Blink3-web">Blink3 Web</a>
+                                        href="https://github.com/itisNathaniel/Blink3-web" target="_blank">Blink3 Web</a>
                             </p>
                         </div>
                         <div class="col-lg-6">
@@ -947,13 +956,13 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item">
-                                        <img src="img/fish/footer.jpg" alt="Footer">
+                                        <img src="img/blinkstick/blink.jpeg" alt="Blink">
                                     </div>
                                     <div class="item active">
-                                        <img src="img/fish/me.JPG" alt="Me">
+                                        <img src="img/blinkstick/blink.jpeg" alt="Blink">
                                     </div>
                                     <div class="item">
-                                        <img src="img/fish/fish.png" alt="Fish">
+                                        <img src="img/blinkstick/blink.jpeg" alt="Blink">
                                     </div>
                                 </div>
                                 <!-- Left and right controls -->
@@ -1365,7 +1374,7 @@
             </button>
         </div>
     </div>
-    <!-- 7. ?? -->
+    <!-- 7. Geography Quiz modal -->
     <div class="portfolio-modal modal fade" id="geogquizmodal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="description-wrapper">
@@ -1417,77 +1426,99 @@
     <!-- 8. ?? -->
     <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>NR</h2>
-                            <hr class="hr-line">
-                            <div class="cog"><i class="fa fa-cog"></i></div>
-                            <p>This project is not quite complete yet, check back soon!</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong>Client:</strong>
-                                    Me + NR
-                                </li>
-                                <li>
-                                    <strong>Date:</strong>
-                                    2014 - Present
-                                </li>
-                                <li>
-                                    <strong>Service:</strong>
-                                    Web Development
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            <div class="description-wrapper">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="modal-title">
+                        <h2>??</h2>
+                        <hr class="modal-line">
+                    </div>
+                    <div class="modal-body">
+                        <div class="cog"><i class="fa fa-cog"></i></div>
+                        <p>This project is not quite complete yet, check back soon!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 modal-text">
+                        <h5>Developers:
+                            <a class="dev-link" href="https://github.com/harryb0905">
+                                <img class="developer-pic" src="img/harry_new.jpg" alt="">
+                            </a>
+                        </h5>
+                        <ul class="list-inline item-details">
+                            <li>
+                                <strong>Status:</strong>
+                                Developing
+                            </li>
+                            <li>
+                                <strong>Date:</strong>
+                                Now
+                            </li>
+                            <li>
+                                <strong>Service:</strong>
+                                App Development
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <button type="button" class="btn close-btn btn-default" data-dismiss="modal"><i
+                    class="fa fa-times"></i> Close
+            </button>
         </div>
     </div>
     <!-- 9. ?? -->
     <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>GitHub Projects</h2>
-                            <hr class="hr-line">
-                            <img src="img/github/terminal.jpeg" class="img-responsive img-centered" alt="">
-                            <p>Feel free to view all my GitHub projects here:- <a href="https://github.com/harryb0905">GitHub Profile</a></p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong>Client:</strong>
-                                    -
-                                </li>
-                                <li>
-                                    <strong>Date:</strong>
-                                    April 2015 - Present
-                                </li>
-                                <li>
-                                    <strong>Service:</strong>
-                                    Web Development
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            <div class="description-wrapper">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="modal-title">
+                        <h2>??</h2>
+                        <hr class="modal-line">
+                    </div>
+                    <div class="modal-body">
+                        <div class="cog"><i class="fa fa-cog"></i></div>
+                        <p>This project is not quite complete yet, check back soon!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 modal-text">
+                        <h5>Developers:
+                            <a class="dev-link" href="https://github.com/harryb0905">
+                                <img class="developer-pic" src="img/harry_new.jpg" alt="">
+                            </a>
+                        </h5>
+                        <ul class="list-inline item-details">
+                            <li>
+                                <strong>Status:</strong>
+                                Developing
+                            </li>
+                            <li>
+                                <strong>Date:</strong>
+                                Now
+                            </li>
+                            <li>
+                                <strong>Service:</strong>
+                                App Development
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <button type="button" class="btn close-btn btn-default" data-dismiss="modal"><i
+                    class="fa fa-times"></i> Close
+            </button>
         </div>
     </div>
 
