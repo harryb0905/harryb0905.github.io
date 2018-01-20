@@ -105,7 +105,6 @@ hr.hr-line {
 .img-centered {
   margin: 0 auto;
   width: 400px;
-  margin-top: 20px;
 }
 #wrapper {
   position: absolute;
@@ -120,11 +119,6 @@ header {
 
   border-bottom: 3px solid white;
   color: white;
-}
-@media only screen and (max-width: 767px) {
-  header {
-    background-attachment: scroll;
-  }
 }
 nav img.nav-pic {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
@@ -178,20 +172,8 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
     background-color: white;
     box-shadow: 0 0 5px rgba(0,0,0,0.4);
 }
-#skills {
-    border-bottom: 3px solid white;
-    color: black;
-    background:
-          linear-gradient(
-            rgba(110, 60, 110, 0.14),
-            rgba(110, 60, 110, 0.14)
-          ),
-          no-repeat center center url(../img/bgg.jpg);
-
-        webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+.skills {
+    margin-top: 25px;
 }
 #about p {
   font-size: 11pt;
@@ -248,7 +230,6 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
   width: 175px;
   height: 175px;
   border-radius: 50%;
-  border: 1px solid white;
   text-align: center;
   vertical-align: middle;
   z-index: 0;
@@ -612,7 +593,17 @@ section.success {
 #portfolio {
   color: white;
   border-bottom: 3px solid white;
-  background: rgba(0, 0, 0, 0.5);
+  background:
+    linear-gradient(
+      rgba(68, 102, 50, 0.7),
+      rgba(68, 102, 50, 0.7)
+    ),
+    no-repeat center center url(../img/bgg.jpg);
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 .portfolio-title {
   font-size: 26pt;
@@ -787,7 +778,8 @@ footer .footer-above {
     linear-gradient(
       rgba(90, 90, 90, 0.88),
       rgba(90, 90, 90, 0.8)
-    );
+    ),
+     no-repeat center center;
 
   webkit-background-size: cover;
   -moz-background-size: cover;
@@ -799,7 +791,7 @@ footer .footer-col {
 }
 footer .footer-below {
   height: 40px;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(60,60,60,1);
   color: white;
 }
 footer p {
@@ -1217,7 +1209,7 @@ div#maincontent {
         height: 300px;
     }
     hr.modal-line {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     .description-text {
         margin-top: 5px;
