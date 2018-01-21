@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3420b1ea-e3d9-4839-8612-d942df922805" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/freelancer.css" afterPath="$PROJECT_DIR$/css/freelancer.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/freelancer.js" afterPath="$PROJECT_DIR$/js/freelancer.js" />
+      <change beforePath="$PROJECT_DIR$/js/wow.js/dist/wow.min.js.gz" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
