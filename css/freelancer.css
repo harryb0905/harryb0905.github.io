@@ -113,8 +113,8 @@ header {
   text-align: center;
   background:
     linear-gradient(
-      rgba(160, 160, 160, 0.6),
-      rgba(160, 160, 160, 0.6)
+      rgba(100, 100, 100, 0.6),
+      rgba(100, 100, 100, 0.6)
     );
 
   border-bottom: 3px solid white;
@@ -624,11 +624,12 @@ hr.portfolio-line.line-hovered {
   right: 0;
   font-weight: 400;
   border-radius: 2%;
+  padding: 5px;
 }
 #portfolio .portfolio-item img {
   box-shadow: 0 0 40px rgba(0,0,0,0.5);
   background-color: rgba(215,215,215,1);
-  padding: 10px;
+  padding: 5px;
   border-radius: 2%;
 }
 #portfolio .portfolio-item .portfolio-link {
@@ -1241,6 +1242,9 @@ div#maincontent {
   padding: 10px;
   font-weight: 200;
   color: black;
+}
+.panel-body li {
+    font-weight: 200;
 }
 #about .panel-body p {
     font-size: 12pt;
