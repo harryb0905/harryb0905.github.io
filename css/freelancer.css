@@ -115,7 +115,8 @@ header {
     linear-gradient(
       rgba(160, 160, 160, 0.6),
       rgba(160, 160, 160, 0.6)
-    );
+    ),
+    no-repeat center center url("../img/github/terminal.jpeg");
 
   border-bottom: 3px solid white;
   color: white;
