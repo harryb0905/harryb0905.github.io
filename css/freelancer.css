@@ -115,8 +115,7 @@ header {
     linear-gradient(
       rgba(160, 160, 160, 0.6),
       rgba(160, 160, 160, 0.6)
-    ),
-    no-repeat center center url("../img/github/terminal.jpeg");
+    );
 
   border-bottom: 3px solid white;
   color: white;
@@ -136,7 +135,7 @@ nav img.nav-pic {
 
 header .container {
   padding-top: 90px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .profile-pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
@@ -623,20 +622,23 @@ hr.portfolio-line.line-hovered {
 }
 #portfolio .portfolio-item {
   right: 0;
-  padding: 10px 15px;
   font-weight: 400;
-  border-radius: 10%;
+  border-radius: 2%;
 }
 #portfolio .portfolio-item img {
-  border-radius: 10%;
   box-shadow: 0 0 40px rgba(0,0,0,0.5);
+  background-color: rgba(215,215,215,1);
+  padding: 10px;
+  border-radius: 2%;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
+
   max-width: 230px;
   margin: 0 auto;
-  border-radius: 10%;
+  border-radius: 2%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
   animation: 1.4s ease-in-out 0s 1 slideInFromBottom;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -651,11 +653,11 @@ hr.portfolio-line.line-hovered {
   -moz-transition: opacity ease 0.3s;
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-  border-radius: 10%;
+  border-radius: 2%;
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-link .caption:not( :hover ) {
-    border-radius: 10%;
+    border-radius: 2%;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
@@ -1237,7 +1239,7 @@ div#maincontent {
   font-size: 12pt;
   text-align: left;
   padding: 10px;
-  font-weight: 300;
+  font-weight: 200;
   color: black;
 }
 #about .panel-body p {
