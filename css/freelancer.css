@@ -385,7 +385,7 @@ header .intro-text .name {
   margin-bottom: 15px;
 }
 .navbar-custom {
-  background: rgba(0, 70, 135, 1);
+  background: #004d4d;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
