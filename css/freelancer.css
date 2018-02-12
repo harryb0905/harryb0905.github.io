@@ -111,12 +111,13 @@ hr.hr-line {
 }
 header {
   text-align: center;
+  min-height: 500px;
   background:
     linear-gradient(
-      rgba(100, 100, 100, 0.4),
-      rgba(100, 100, 100, 0.4)
+      rgba(120, 120, 120, 0.55),
+      rgba(120, 120, 120, 0.55)
     ),
-    no-repeat center center url("../img/github/terminal.jpeg");
+    no-repeat center center url("../img/github/coding.png");
   webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -139,8 +140,9 @@ nav img.nav-pic {
 }
 
 header .container {
-  padding-top: 90px;
-  padding-bottom: 30px;
+  height: 100vh;
+}
+.type-text {
 }
 .profile-pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
@@ -240,6 +242,18 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
   z-index: 0;
   opacity: 0.9;
 }
+header .intro-text {
+  margin-top: 30vh;
+}
+header #header-intro {
+  font-size: 34px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: none;
+  font-weight: 600;
+  font-style: normal;
+  animation: 1s ease-in-out 0s 1 slideInFromTop;
+}
 header .intro-text .name {
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.9), 0 2px 2px 0 rgba(0, 0, 0, 0.9);
   background-color: rgba(0, 0, 0, 0.1);
@@ -258,6 +272,23 @@ header .intro-text .name {
     font-weight: 600;
     font-size: 1.5em;
 }
+.page-scroll-about {
+  margin-top: 175px;
+  font-size: 70%;
+  color: white;
+  text-decoration: none;
+  font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  animation: 2s ease-in-out 0s 1 slideInFromBottom;
+}
+.page-scroll-about a {
+  font-size: 200%;
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+}
+.page-scroll-about a:hover {
+  opacity: 0.7;
+}
 #downBtn {
     visibility: hidden;
 }
@@ -274,13 +305,12 @@ header .intro-text .name {
   header {
     background:
         linear-gradient(
-          rgba(120, 120, 120, 0.75),
-          rgba(120, 120, 120, 0.75)
+          rgba(120, 120, 120, 0.6),
+          rgba(120, 120, 120, 0.6)
         );
   }
   header .container {
-    padding-top: 75px;
-    padding-bottom: 100px;
+    height: 100vh;
   }
   header .intro-text .name {
     padding: 25px 30px 25px 30px;
@@ -385,7 +415,7 @@ header .intro-text .name {
   margin-bottom: 15px;
 }
 .navbar-custom {
-  background: #004d4d;
+  background: rgba(0, 90, 195, 1) ;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -607,8 +637,8 @@ section.success {
   border-bottom: 3px solid white;
   background:
     linear-gradient(
-      rgba(68, 102, 50, 0.7),
-      rgba(68, 102, 50, 0.7)
+      rgba(68, 102, 50, 0.3),
+      rgba(68, 102, 50, 0.4)
     ),
     no-repeat center center url(../img/bgg.jpg);
   webkit-background-size: cover;
@@ -641,7 +671,7 @@ hr.portfolio-line.line-hovered {
 #portfolio .portfolio-item img {
   box-shadow: 0 0 40px rgba(0,0,0,0.5);
   background-color: rgba(215,215,215,1);
-  padding: 5px;
+  padding: 1px;
   border-radius: 2%;
 }
 #portfolio .portfolio-item .portfolio-link {
@@ -1080,9 +1110,9 @@ div#maincontent {
 /* Terminal CSS */
 .shell-wrap {
   width: 355px;
-  margin: 30px auto 0 auto;
+  margin: 50px auto 0 auto;
   box-shadow: 0 0 30px rgba(0,0,0,0.4);
-  animation: 2s ease-in-out 0s 1 slideInFromBottom;
+  animation: 1.4s ease-in-out 0s 1 slideInFromBottom;
 
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1152,6 +1182,9 @@ div#maincontent {
     }
     #portfolio .portfolio-item .portfolio-link .caption {
         visibility: visible;
+    }
+    header #header-intro {
+      font-size: 65px;
     }
     .shell-wrap {
         width: 500px;

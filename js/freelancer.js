@@ -32,7 +32,7 @@
 
 })(jQuery); // End of use strict
 
-// change opacity if window is resized and navbar has collapsed 
+// change opacity if window is resized and navbar has collapsed
 $(window).resize(function() {
   if ($(this).width() >= 1024) {
       $('.collapse').collapse('hide');
@@ -65,24 +65,24 @@ $(window).resize(function() {
 // toggle navbar collapse when clicking outside of navbar
 $(document).click(function (event) {
     var clickover = $(event.target);
-    var $navbar = $(".navbar-collapse");               
+    var $navbar = $(".navbar-collapse");
     var _opened = $navbar.hasClass("in");
-    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+    if (_opened === true && !clickover.hasClass("navbar-toggle")) {
         $navbar.collapse('hide');
     }
 });
 
 // portfolio item hover effect
 $('.portfolio-link').hover(function() {
-  
-  // mouse over    
+
+  // mouse over
   $(this).parent().addClass('start');
-  
+
 }, function() {
-  
+
   // mouse out
   $(this).parent().removeClass('start');
-  
+
 });
 
 // Scroll Reveal code
@@ -115,12 +115,12 @@ $("#downBtn").hover(
 });
 
 // animate down button to position on page
-$("#downBtn").on('click', function(e) {
+$(".page-scroll-about").on('click', function(e) {
     e.preventDefault();
 
     $('html,body').animate({
         scrollTop: $("#about").offset().top
-        }, 1750, 'easeInOutSine');
+      }, 1250, 'easeInOutSine');
 });
 
 // animate in a portfolio item title on hover
@@ -151,9 +151,9 @@ $('.portfolio-modal').on('shown.bs.modal',function(event){
 
 // animate the level bars once modal window has opened
 $('.portfolio-modal').on('hidden.bs.modal', function () {
-    
+
   var id = "#" + $(this).closest(".portfolio-modal").attr("id");
-  var bars = $(id).find(".bar .level");  
+  var bars = $(id).find(".bar .level");
   $(bars).removeClass('start');
 });
 

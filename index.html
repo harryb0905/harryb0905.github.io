@@ -17,6 +17,9 @@
     <!-- Charts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -90,52 +93,15 @@
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom navbar-toggleable-md">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a href="#page-top" class="pull-left">
-                    <img class="nav-pic" src="img/hlogo.png" alt="">
-                </a>
-                <a class="navbar-brand" href="#page-top">Harry Baines</a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#education">Education</a>
-                    </li>
-                    <!--<li class="page-scroll">-->
-                        <!--<a href="#contact">Contact</a>-->
-                    <!--</li>-->
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
 
     <!-- Header -->
-    <header id="header-section" class="parallax-window" data-parallax="scroll" data-image-src="img/github/terminal.jpeg" data-over-scroll-fix="true" data-ios-fix="false">
+    <header id="header-section" class="parallax-window" data-parallax="scroll" data-image-src="img/github/coding.png" data-over-scroll-fix="true" data-ios-fix="false">
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
-                <img class="profile-pic" src="img/harry_new.jpg" alt="">
                 <div class="intro-text">
-                    <h1 class="name">Harry Baines</h1>
+                  <h1 id="header-intro">Hi, I'm Harry. I'm a</h1>
+                    <!-- <h1 class="name">Harry Baines</h1> -->
                     <div class="shell-wrap">
                         <ul class="shell-body">
                             <li>
@@ -144,9 +110,9 @@
                         </ul>
                     </div>
                 </div>
-                <a class="btn" href="#about" id="downBtn">
-                    <i class="fa fa-lg fa-3x fa-arrow-down" aria-hidden="true"></i>
-                </a>
+                <div class="page-scroll-about">
+                  <a href="#about">Learn more about me<br><i class="fa fa-chevron-down"></i></a>
+                </div>
             </div>
         </div>
     </header>
@@ -185,7 +151,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <img class="profile-pic-about center-block" src="img/casual.JPG" alt="">
+                    <img class="profile-pic center-block" src="img/harry_new.jpg" alt="">
                 </div>
                 <div class="col-md-4">
                     <h3>Info:</h3>
