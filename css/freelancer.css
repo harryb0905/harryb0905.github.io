@@ -20,10 +20,10 @@ p {
 p.small {
   font-size: 16px;
 }
-a,
+/* a,
 a:hover {
   color: #18BC9C;
-}
+} */
 a:active,
 a:focus {
   outline: 0;
@@ -620,7 +620,7 @@ section.success {
 }
 .footerFont {
   color: aqua;
-  opacity: 0.6;
+  opacity: 0.8;
   font-size: 100%;
   line-height: 120%;
 }
@@ -808,24 +808,54 @@ hr.portfolio-line.line-hovered {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
+.contact-div {
+  margin: 25px auto 0px auto;
+}
+.contact-me-btn {
+  padding: 10px 30px;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  line-height: 30px;
+  font-size: 120%;
+  font-weight: bold;
+}
+.contact-me-btn.hovered {
+  padding: 10px 40px;
+  background-color: rgba(10,10,10,0.8);
+  color: white;
+  transform: scale(1.05);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 200ms linear;
+}
+.contact-me-btn.removed {
+  color: rgba(10,10,10,0.8);
+  transition: all 200ms linear;
+}
+.contact-me-btn {
+  text-decoration: none;
+}
 footer {
   color: white;
   height: 200px;
   position: relative;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
 }
 footer h3 {
   margin-bottom: 30px;
 }
 footer .footer-above {
-  padding: 100px 0px;
+  padding: 50px 0px;
   border-bottom: 3px solid white;
   text-align: center;
   background:
     linear-gradient(
-      rgba(90, 90, 90, 0.78),
-      rgba(90, 90, 90, 0.78)
+      rgba(60, 60, 60, 0.74),
+      rgba(60, 60, 60, 0.74)
     ),
-     no-repeat center center url("../img/github/coding.png");
+     no-repeat center center url("../img/github/terminal.jpeg");
 
   webkit-background-size: cover;
   -moz-background-size: cover;
@@ -833,11 +863,39 @@ footer .footer-above {
   background-size: cover;
 }
 @media (min-width: 768px) {
+  .contact-div {
+    margin: 40px auto 0px auto;
+  }
+  .contact-me-btn {
+    padding: 20px 50px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    line-height: 50px;
+    font-size: 120%;
+    font-weight: bold;
+  }
+  .contact-me-btn.hovered {
+    padding: 20px 60px;
+    background-color: rgba(10,10,10,0.8);
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 200ms linear;
+  }
+  .contact-me-btn.removed {
+    color: rgba(10,10,10,0.8);
+    transition: all 200ms linear;
+  }
+  .contact-me-btn {
+    text-decoration: none;
+  }
   footer .footer-above {
     background:
       linear-gradient(
-        rgba(90, 90, 90, 0.78),
-        rgba(90, 90, 90, 0.78)
+        rgba(60, 60, 60, 0.74),
+        rgba(60, 60, 60, 0.74)
       );
   }
 }
@@ -845,18 +903,20 @@ footer .footer-col {
   margin-bottom: 200px;
 }
 footer .footer-below {
-  height: 40px;
+  height: 70px;
   background-color: rgba(60,60,60,1);
   color: white;
 }
 footer p {
-  font-size: 90%;
-  margin-top: 12px;
+  font-size: 110%;
+  line-height: 70px;
+  margin: 0 auto;
 }
 footer #footer-text {
     font-size: 145%;
     line-height: 1.5em;
     padding: 0 20px 0 20px;
+    text-transform: none;
 }
 #footer-work p {
     font-size: 150%;
@@ -1109,7 +1169,7 @@ div#maincontent {
 }
 /* Terminal CSS */
 .shell-wrap {
-  width: 355px;
+  width: 300px;
   margin: 50px auto 0 auto;
   box-shadow: 0 0 30px rgba(0,0,0,0.4);
   animation: 1.4s ease-in-out 0s 1 slideInFromBottom;
@@ -1172,7 +1232,7 @@ div#maincontent {
         top: 25px;
     }
     footer .footer-above {
-        padding: 250px 0;
+        padding: 175px 0;
     }
 }
 /* For larger devices */
@@ -1187,7 +1247,7 @@ div#maincontent {
       font-size: 65px;
     }
     .shell-wrap {
-        width: 500px;
+        width: 425px;
         font: 1.3em 'Andale Mono', Consolas, 'Courier New';
     }
     .shell-body {
@@ -1197,7 +1257,7 @@ div#maincontent {
       padding: 0 0 0 30px;
     }
     footer #footer-text {
-        font-size: 230%;
+        font-size: 250%;
     }
     footer #footer-work {
         font-size: 110%;

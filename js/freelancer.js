@@ -123,6 +123,18 @@ $(".page-scroll-about").on('click', function(e) {
       }, 1250, 'easeInOutSine');
 });
 
+// contact btn in footer above
+$('.contact-me-btn').hover(
+  function() {
+    //mouse over
+    $(this).addClass('hovered')
+    $(this).removeClass('removed')
+  }, function() {
+    //mouse out
+    $(this).addClass('removed')
+    $(this).removeClass('hovered')
+});
+
 // animate in a portfolio item title on hover
 $('.portfolio-link').hover(function() {
     // mouse over
