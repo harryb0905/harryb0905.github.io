@@ -134,6 +134,7 @@ $('.contact-me-btn').hover(
     $(this).addClass('removed')
     $(this).removeClass('hovered')
 });
+$('.')
 
 // animate in a portfolio item title on hover
 $('.portfolio-link').hover(function() {

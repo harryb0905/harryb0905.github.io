@@ -186,6 +186,9 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
   font-size: 11pt;
   margin-bottom: 20px;
 }
+.about-info-div {
+  margin-top: 0px;
+}
 #workProj {
     text-align: center;
     padding: 50px 0;
@@ -205,6 +208,7 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
 }
 .about-me-text {
   font-size: 12pt;
+  margin-bottom: 10px;
 }
 #skills-list {
   font-size: 90% !important;
@@ -214,8 +218,8 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
   border-bottom: 3px solid white;
   background:
     linear-gradient(
-      rgba(60, 60, 60, 0.68),
-      rgba(60, 60, 60, 0.68)
+      rgba(0, 164, 186, 1),
+      rgba(0, 164, 186, 1),
     ),
     no-repeat center center url(../img/bgg.jpg);
 
@@ -232,7 +236,7 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
 
   display: block;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 5px;
   margin-bottom: 25px;
   width: 175px;
   height: 175px;
@@ -332,7 +336,7 @@ header .intro-text .name {
   .profile-pic-about {
     width: 250px;
     height: 250px;
-    margin-top: 20px;
+    margin-top: 0px;
   }
   #about p {
     font-size: 14pt;
@@ -903,9 +907,14 @@ footer .footer-col {
   margin-bottom: 200px;
 }
 footer .footer-below {
-  height: 70px;
   background-color: rgba(60,60,60,1);
   color: white;
+}
+#copyright-text {
+  padding-top: 15px;
+}
+.list-inline {
+  margin-bottom: 40px;
 }
 footer p {
   font-size: 110%;
