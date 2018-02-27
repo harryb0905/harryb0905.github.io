@@ -161,7 +161,7 @@ header .container {
 }
 .about-info {
   margin-top: 25px;
-  padding: 20px 50px;
+  padding: 10px 50px 0px 50px;
   text-align: left;
   margin: 0 auto;
   font-weight: 300;
@@ -386,8 +386,8 @@ header .intro-text .name {
     color: rgba(0, 77, 173, 0.8);
   }
   #skills-list {
-    font-size: 150% !important;
-    padding: 0px 50px 50px 50px;
+    font-size: 140% !important;
+    padding: 10px 50px 20px 50px;
     margin-top: 25px;
     font-weight: 300;
   }
