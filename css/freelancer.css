@@ -145,23 +145,26 @@ header .container {
 .type-text {
 }
 .profile-pic {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.9), 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   filter: brightness(220%);
 
   display: block;
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: 1px solid white;
   text-align: center;
   vertical-align: middle;
   z-index: 0;
   opacity: 0.9;
-  animation: 2s slideInFromTop;
-
+}
+.about-info {
+  margin-top: 25px;
+  padding: 20px 50px;
+  text-align: left;
+  margin: 0 auto;
+  font-weight: 300;
 }
 a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
 {
@@ -182,12 +185,29 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
 .skills {
     margin-top: 25px;
 }
+.skills-div-item {
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  display: inline-block;
+  padding: 15px;
+  margin: 0px 8px 8px 8px;
+  font-size: 150%;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+.skills-div-item:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
 #about p {
   font-size: 11pt;
   margin-bottom: 20px;
 }
 .about-info-div {
-  margin-top: 0px;
+  background-color: white;
+  padding: 100px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+  color: black;
+
 }
 #workProj {
     text-align: center;
@@ -211,7 +231,9 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
   margin-bottom: 10px;
 }
 #skills-list {
-  font-size: 90% !important;
+  font-size: 125% !important;
+  padding: 0px;
+  margin-top: 25px;
 }
 #about {
   text-align: center;
@@ -230,6 +252,8 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
 }
 #about-me-custom {
     color: black;
+    font-weight: 600;
+    margin-top: 20px;
 }
 .profile-pic-about {
   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.9), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
@@ -329,14 +353,20 @@ header .intro-text .name {
     height: 100px;
   }
   .profile-pic {
-    width: 220px;
-    height: 220px;
-    margin-top: 80px;
+    width: 170px;
+    height: 170px;
+    margin-top: 85px;
   }
   .profile-pic-about {
     width: 250px;
     height: 250px;
     margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .about-info-div {
+    background-color: white;
+    padding: 25px;
+    font-weight: normal;
   }
   #about p {
     font-size: 14pt;
@@ -356,7 +386,10 @@ header .intro-text .name {
     color: rgba(0, 77, 173, 0.8);
   }
   #skills-list {
-    font-size: 120% !important;
+    font-size: 150% !important;
+    padding: 0px 50px 50px 50px;
+    margin-top: 25px;
+    font-weight: 300;
   }
 }
 .no-bullets {
@@ -856,8 +889,8 @@ footer .footer-above {
   text-align: center;
   background:
     linear-gradient(
-      rgba(60, 60, 60, 0.74),
-      rgba(60, 60, 60, 0.74)
+      rgba(60, 60, 60, 0.64),
+      rgba(60, 60, 60, 0.64)
     ),
      no-repeat center center url("../img/github/terminal.jpeg");
 
@@ -898,8 +931,8 @@ footer .footer-above {
   footer .footer-above {
     background:
       linear-gradient(
-        rgba(60, 60, 60, 0.74),
-        rgba(60, 60, 60, 0.74)
+        rgba(60, 60, 60, 0.64),
+        rgba(60, 60, 60, 0.64)
       );
   }
 }
