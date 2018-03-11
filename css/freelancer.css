@@ -209,13 +209,6 @@ a.dev-link:hover, a.dev-link:visited, a.dev-link:link, a.dev-link:active
   color: black;
 
 }
-#workProj {
-    text-align: center;
-    padding: 50px 0;
-}
-#workProjText {
-    font-size: 150%;
-}
 #largeEnv {
     position: relative;
     bottom: 15px;
@@ -934,11 +927,42 @@ footer .footer-above {
         rgba(120, 120, 120, 0.74)
       );
   }
+  #overlay {
+    left:50%;
+    top:50%;
+    margin-top: 25px;
+    -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position:absolute;
+    font-size: 100%;
+  }
+}
+/* Particles.js */
+#particle {
+  background-color: rgba(0, 92, 153, 0.8);
+  position: relative;
+  height: 775px;
+  z-index:0;
+}
+#overlay {
+ left:50%;
+ top:50%;
+ margin-top: 25px;
+ -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ position:absolute;
+ font-size: 100%;
+}
+footer {
+  margin: 0 auto;
 }
 footer .footer-col {
   margin-bottom: 200px;
 }
 footer .footer-below {
+  border-top: 3px solid white;
   background-color: rgba(60,60,60,1);
   color: white;
 }
@@ -950,17 +974,13 @@ footer .footer-below {
 }
 footer p {
   font-size: 110%;
-  line-height: 70px;
-  margin: 0 auto;
+  line-height: 25px;
+  margin-top: 25px;
 }
 footer #footer-text {
-    font-size: 145%;
+    font-size: 155%;
     line-height: 1.5em;
-    padding: 0 20px 0 20px;
     text-transform: none;
-}
-#footer-work p {
-    font-size: 150%;
 }
 .code-char {
     font-size: 700%;
@@ -1298,7 +1318,7 @@ div#maincontent {
       padding: 0 0 0 30px;
     }
     footer #footer-text {
-        font-size: 250%;
+        font-size: 200%;
     }
     footer #footer-work {
         font-size: 110%;
