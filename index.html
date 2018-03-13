@@ -14,6 +14,10 @@
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
+    <!-- MUI CSS -->
+    <link href="https://cdn.muicss.com/mui-0.9.36/css/mui.min.css" rel="stylesheet" type="text/css" />
+	  <script src="https://cdn.muicss.com/mui-0.9.36/js/mui.min.js"></script>
+
     <!-- Charts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
@@ -164,115 +168,159 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item" id="portfolio-item-click">
-                    <a href="#fishModal" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3 class="portfolio-title">Fish Camera</h3>
-                                <hr class="portfolio-line">
-                                <p class="caption-text">A Raspberry Pi powered livestream of fish.</p>
-                            </div>
+            <div class="mui-panel">
+              <div id="tabContent" class="mui-container-fluid">
+                <div class="mui-row">
+                  <ul class="mui-tabs__bar">
+                    <li class="mui--is-active"><a data-mui-toggle="tab" data-mui-controls="web-pane">Web</a></li>
+                    <li><a data-mui-toggle="tab" data-mui-controls="desktop-pane">Desktop</a></li>
+                    <li><a data-mui-toggle="tab" data-mui-controls="others-pane">Others</a></li>
+                  </ul>
+                  <div class="mui-tabs__pane mui--is-active" id="web-pane">
+                    <div class="mui-container-fluid">
+                      <div class="mui-row">
+                        <div class="mui-col-md-4">
+                          <div class="portfolio-item" id="portfolio-item-click">
+                              <a href="#fishModal" class="portfolio-link" data-toggle="modal">
+                                  <div class="caption">
+                                      <div class="caption-content">
+                                          <h3 class="portfolio-title">Fish Camera</h3>
+                                          <hr class="portfolio-line">
+                                          <p class="caption-text">A Raspberry Pi powered livestream of fish.</p>
+                                      </div>
+                                  </div>
+                                  <img src="img/fish/fish.png" class="img-responsive" alt="Fish">
+                              </a>
+                          </div>
                         </div>
-                        <img src="img/fish/fish.png" class="img-responsive" alt="Fish">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#blinkmodal" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3 class="portfolio-title">Blink3</h3>
-                                <hr class="portfolio-line">
-                                <p class="caption-text">A desktop and web interface for the Blinkstick.</p>
-                            </div>
+                        <div class="mui-col-md-4">
+                          <div class="portfolio-item">
+                              <a href="#todoappmodal" class="portfolio-link" data-toggle="modal">
+                                  <div class="caption">
+                                      <div class="caption-content">
+                                          <h3 class="portfolio-title">ToDoApp</h3>
+                                          <hr class="portfolio-line">
+                                          <p class="caption-text">A convenient and elegant task manager.</p>
+                                      </div>
+                                  </div>
+                                  <img src="img/todoinapp.png" class="img-responsive" alt="ToDoApp">
+                              </a>
+                          </div>
                         </div>
-                        <img src="img/blinkstick/blink.jpeg" class="img-responsive" alt="Blink3">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#todoappmodal" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3 class="portfolio-title">ToDoApp</h3>
-                                <hr class="portfolio-line">
-                                <p class="caption-text">A convenient and elegant task manager.</p>
-                            </div>
+                        <div class="mui-col-md-4">
+                          <div class="portfolio-item">
+                              <a href="#blinkmodal" class="portfolio-link" data-toggle="modal">
+                                  <div class="caption">
+                                      <div class="caption-content">
+                                          <h3 class="portfolio-title">Blink3</h3>
+                                          <hr class="portfolio-line">
+                                          <p class="caption-text">A desktop and web interface for the Blinkstick.</p>
+                                      </div>
+                                  </div>
+                                  <img src="img/blinkstick/blink.jpeg" class="img-responsive" alt="Blink3">
+                              </a>
+                          </div>
                         </div>
-                        <img src="img/todoinapp.png" class="img-responsive" alt="ToDoApp">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#aksmodal" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3 class="portfolio-title">AKS Sports Day System</h3>
-                                <hr class="portfolio-line">
-                                <p class="caption-text">A school sports day software system.</p>
-                            </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mui-tabs__pane" id="desktop-pane">
+                    <div class="mui-container-fluid">
+                      <div class="mui-row">
+                        <div class="mui-col-md-4">
+                          <div class="portfolio-item">
+                            <a href="#aksmodal" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3 class="portfolio-title">AKS Sports Day System</h3>
+                                        <hr class="portfolio-line">
+                                        <p class="caption-text">A school sports day software system.</p>
+                                    </div>
+                                </div>
+                                <img src="img/sportsdaycode.png" class="img-responsive" alt="AKSSportsDay">
+                            </a>
+                          </div>
                         </div>
-                        <img src="img/sportsdaycode.png" class="img-responsive" alt="AKSSportsDay">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#alt3runmodal" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3 class="portfolio-title">alt3run</h3>
-                                <hr class="portfolio-line">
-                                <p class="caption-text">Run tracking using the Strava API.</p>
-                            </div>
+                        <div class="mui-col-md-4">
+                          <div class="portfolio-item">
+                              <a href="#alt3runmodal" class="portfolio-link" data-toggle="modal">
+                                  <div class="caption">
+                                      <div class="caption-content">
+                                          <h3 class="portfolio-title">alt3run</h3>
+                                          <hr class="portfolio-line">
+                                          <p class="caption-text">Run tracking using the Strava API.</p>
+                                      </div>
+                                  </div>
+                                  <img src="img/run.png" class="img-responsive" alt="alt3run">
+                              </a>
+                          </div>
                         </div>
-                        <img src="img/run.png" class="img-responsive" alt="alt3run">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#githubmodal" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3 class="portfolio-title">GitHub Projects</h3>
-                                <hr class="portfolio-line">
-                                <p class="caption-text">View my GitHub projects.</p>
-                            </div>
+                        <div class="mui-col-md-4">
+                          <div class="portfolio-item">
+                              <a href="#githubmodal" class="portfolio-link" data-toggle="modal">
+                                  <div class="caption">
+                                      <div class="caption-content">
+                                          <h3 class="portfolio-title">GitHub Projects</h3>
+                                          <hr class="portfolio-line">
+                                          <p class="caption-text">View my GitHub projects.</p>
+                                      </div>
+                                  </div>
+                                  <img src="img/github/coding.png" class="img-responsive" alt="GitHubWork">
+                              </a>
+                          </div>
                         </div>
-                        <img src="img/github/coding.png" class="img-responsive" alt="GitHubWork">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#geogquizmodal" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3 class="portfolio-title">Geography Quiz</h3>
-                                <hr class="portfolio-line">
-                                <p class="caption-text">Do you know where countries are?</p>
-                            </div>
+                        <div class="mui-col-md-4">
+                          <div class="portfolio-item">
+                              <a href="#geogquizmodal" class="portfolio-link" data-toggle="modal">
+                                  <div class="caption">
+                                      <div class="caption-content">
+                                          <h3 class="portfolio-title">Geography Quiz</h3>
+                                          <hr class="portfolio-line">
+                                          <p class="caption-text">Do you know where countries are?</p>
+                                      </div>
+                                  </div>
+                                  <img src="img/earth.jpeg" class="img-responsive" alt="GeogQuiz">
+                              </a>
+                          </div>
                         </div>
-                        <img src="img/earth.jpeg" class="img-responsive" alt="GeogQuiz">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3 class="portfolio-title">??</h3>
-                                <hr class="portfolio-line">
-                                <p class="caption-text">??</p>
-                            </div>
+                        <div class="mui-col-md-4">
+                          <div class="portfolio-item">
+                              <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                                  <div class="caption">
+                                      <div class="caption-content">
+                                          <h3 class="portfolio-title">??</h3>
+                                          <hr class="portfolio-line">
+                                          <p class="caption-text">??</p>
+                                      </div>
+                                  </div>
+                                  <img src="img/portfolio/safe.png" class="img-responsive" alt="Safe">
+                              </a>
+                          </div>
                         </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="Safe">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3 class="portfolio-title">??</h3>
-                                <hr class="portfolio-line">
-                                <p class="caption-text">??</p>
-                            </div>
+                        <div class="mui-col-md-4">
+                          <div class="portfolio-item">
+                              <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                                  <div class="caption">
+                                      <div class="caption-content">
+                                          <h3 class="portfolio-title">??</h3>
+                                          <hr class="portfolio-line">
+                                          <p class="caption-text">??</p>
+                                      </div>
+                                  </div>
+                                  <img src="img/portfolio/cabin.png" class="img-responsive" alt="Safe">
+                              </a>
+                          </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="Safe">
-                    </a>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="mui-tabs__pane" id="others-pane">
+                    Others
+                  </div>
                 </div>
+              </div>
+            </div>
             </div>
         </div>
     </section>
@@ -456,9 +504,8 @@
                   <h1 id="footer-text">This website was created with <span class="footerFont">HTML</span> and designed
                       using <span class="footerFont">CSS</span>. I used <span class="footerFont">JavaScript</span> and
                       <span class="footerFont">jQuery</span> for the animations and transitions. This website is based on the
-                      <span class="footerFont">Twitter Bootstrap</span> framework. I like to update this
-                      website regularly and keep my <span
-                             class="footerFont">portfolio</span> up-to-date.
+                      <span class="footerFont">Twitter Bootstrap</span> framework and uses <span class="footerFont">Material UI
+                      CSS</span> components. I like to update this website regularly and keep my <span class="footerFont">portfolio</span> up-to-date.
                   </h1>
                   <div class="contact-div">
                     <a class="contact-me-btn" href="mailto:harryb0905@googlemail.com">Contact Me</a>
@@ -998,6 +1045,20 @@
             </button>
         </div>
     </div>
+
+    <!-- MUI Tabs JavaScript -->
+    <script>
+      var paneIds = ['web-pane', 'desktop-pane', 'others-pane'],
+          currPos = 0;
+
+      function activateNext() {
+        // increment id
+        currPos = (currPos + 1) % paneIds.length;
+
+        // activate tab
+        mui.tabs.activate(paneIds[currPos]);
+      }
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>

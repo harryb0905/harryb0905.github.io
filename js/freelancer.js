@@ -89,8 +89,8 @@ $('.portfolio-link').hover(function() {
 window.srt = ScrollReveal({ reset: false });
 
 srt.reveal('.details-div', { duration: 1200, origin: 'bottom' });
-srt.reveal('.portfolio-item', { duration: 1000});
-srt.reveal('.portfolio-text', { duration: 1400, origin: 'right'});
+// srt.reveal('.portfolio-item', { duration: 1000});
+// srt.reveal('.portfolio-text', { duration: 1400, origin: 'right'});
 srt.reveal('#portfolio-quote', { duration: 1400, origin: 'top'});
 srt.reveal('#languages', { duration: 800, origin: 'bottom'});
 
