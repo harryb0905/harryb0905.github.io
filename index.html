@@ -52,8 +52,10 @@
       $( function() {
         $( '.type-text' ).teletype( {
           text: ["Computer Science Student", "Developer", "Coder"],
-          typeDelay: 0.5,
-          backDelay: 0.5,
+          typeDelay: 0.01,
+          backDelay: 0.01,
+          delay: 1000,
+          blinkSpeed: 1000,
           loop: 0,
           preserve: false
         } );
@@ -126,33 +128,58 @@
                 <div class="col-lg-12 text-center">
                     <h2 id="about-me-custom">About Me</h2>
                 </div>
-                <img class="profile-pic" src="img/harry_new.jpg" alt="">
-                <div class="col-md-12 about-info" id="skills-list">
-                  My name is Harry Baines, I'm 20 years old and I live in Lancashire, UK.
-                  I'm currently studying Computer Science (MSci) at Lancaster University. I chose Computing as I enjoy problem solving, designing and implementing
-                  algorithms and learning about computer architecture. Logical problem solving has always appealed to me and I find
-                  the mathematical aspects of Computing to be of great interest to me. As a developer I thoroughly enjoy developing exciting and
-                  innovative applications. I'm proficient in web languages, such as <strong>HTML</strong>, <strong>CSS</strong> and
-                  <strong>JavaScript</strong>.
-                  I am interested in many JavaScript frameworks, such as <strong>React</strong>, <strong>Node</strong>, and <strong>Electron</strong> (see
-                  my portfolio). I also enjoy working with <strong>Python</strong> and <strong>Java</strong>. In my free time I enjoy running and playing tennis.
+                <div class="col-md-4">
+                  <img class="profile-pic" src="img/harry_new.jpg" alt="">
                 </div>
-                <div class="row skills">
-                    <div class="col-md-12">
-                      <h3>Skills:</h3>
-                        <p>
-                          <div class="skills-div-item">Python</div>
-                          <div class="skills-div-item">HTML</div>
-                          <div class="skills-div-item">CSS</div>
-                          <div class="skills-div-item">JavaScript</div>
-                          <div class="skills-div-item">React</div>
-                          <div class="skills-div-item">Node</div>
-                          <div class="skills-div-item">Firebase</div>
-                          <div class="skills-div-item">Java</div>
-                          <div class="skills-div-item">Git</div>
-                        </p>
-                    </div>
+                <div class="col-md-8">
+                  <div class="about-info" id="skills-list">
+                    My name is Harry Baines, I'm 20 years old and I live in Lancashire, UK.
+                    I'm currently studying Computer Science (MSci) at Lancaster University. I chose Computing as I enjoy problem solving, designing and implementing
+                    algorithms and learning about computer architecture. Logical problem solving has always appealed to me and I find
+                    the mathematical aspects of Computing to be of great interest to me. As a developer I thoroughly enjoy developing exciting and
+                    innovative applications. I'm proficient in web languages, such as <strong>HTML</strong>, <strong>CSS</strong> and
+                    <strong>JavaScript</strong>.
+                    I am interested in many JavaScript frameworks, such as <strong>React</strong>, <strong>Node</strong>, and <strong>Electron</strong> (see
+                    my portfolio). I also enjoy working with <strong>Python</strong> and <strong>Java</strong>. In my free time I enjoy running and playing tennis.
+                  </div>
                 </div>
+                <div class="row">
+                  <div class="skills">
+                      <div class="hex-row">
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                      </div>
+                      <div class="hex-row even">
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                        <div class="hex"><div class="hex-top"></div><div class="hex-middle"></div><div class="hex-bottom"></div></div>
+                      </div>
+                  </div>
+                </div>
+                <!-- <div class="col-md-12">
+                  <h3>Skills:</h3>
+                    <p>
+                      <div class="skills-div-item">Python</div>
+                      <div class="skills-div-item">HTML</div>
+                      <div class="skills-div-item">CSS</div>
+                      <div class="skills-div-item">JavaScript</div>
+                      <div class="skills-div-item">React</div>
+                      <div class="skills-div-item">Node</div>
+                      <div class="skills-div-item">Firebase</div>
+                      <div class="skills-div-item">Java</div>
+                      <div class="skills-div-item">Git</div>
+                    </p>
+                </div> -->
             </div>
         </div>
     </section>
@@ -172,8 +199,8 @@
               <div id="tabContent" class="mui-container-fluid">
                 <div class="mui-row">
                   <ul class="mui-tabs__bar">
-                    <li class="mui--is-active"><a data-mui-toggle="tab" data-mui-controls="web-pane">Web</a></li>
-                    <li><a data-mui-toggle="tab" data-mui-controls="desktop-pane">Desktop</a></li>
+                    <li class="mui--is-active"><a data-mui-toggle="tab" data-mui-controls="web-pane">Web Apps</a></li>
+                    <li><a data-mui-toggle="tab" data-mui-controls="desktop-pane">Desktop Apps</a></li>
                     <li><a data-mui-toggle="tab" data-mui-controls="others-pane">Others</a></li>
                   </ul>
                   <div class="mui-tabs__pane mui--is-active" id="web-pane">
@@ -221,6 +248,22 @@
                               </a>
                           </div>
                         </div>
+                      </div>
+                      <div class="mui-row">
+                          <div class="mui-col-md-4">
+                            <div class="portfolio-item">
+                                <a href="#blinkmodal" class="portfolio-link" data-toggle="modal">
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <h3 class="portfolio-title">Blink3</h3>
+                                            <hr class="portfolio-line">
+                                            <p class="caption-text">A desktop and web interface for the Blinkstick.</p>
+                                        </div>
+                                    </div>
+                                    <img src="img/blinkstick/blink.jpeg" class="img-responsive" alt="Blink3">
+                                </a>
+                            </div>
+                          </div>
                       </div>
                     </div>
                   </div>
@@ -349,7 +392,7 @@
                             <hr>
                             <h4>University Results:</h4>
                             <ul>
-                                <li>First Year - <strong>83.8%</strong> Average <strong>(First)</strong><br><a class="pdflink" href="transcript_yr_1.pdf" target="_blank">View Transcript</a></li>
+                                <li>First Year - <strong>83.8%</strong> Average <strong>(First)</strong><br></li>
                                 <li>Second Year - <strong>87.5%</strong> Average <strong>(Ongoing)</strong></li>
                                 <li>Third Year - ...</li>
                                 <li>Fourth Year - ...</li>
@@ -432,7 +475,6 @@
                             <p>I was awarded a commendation by the School of Computing and Communications
                                 for achieving a First and having "outstanding" work.<br>
                             </p>
-                            <a class="pdflink" href="commendationletter.pdf" target="_blank">View Letter</a>
                         </div>
                         <hr>
                         <div class="panel-body">
