@@ -42,7 +42,7 @@ var options =
   },
   "size":
   {
-    "value":3,"random":true,
+    "value":2,"random":true,
     "anim":
     {
       "enable":false,"speed":40,"size_min":0.1,"sync":false
@@ -50,11 +50,11 @@ var options =
   },
   "line_linked":
   {
-    "enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1
+    "enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1
   },
   "move":
   {
-    "enable":true,"speed":3.5782952832645452,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,
+    "enable":true,"speed":2.5782952832645452,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,
     "attract":
     {
       "enable":false,
